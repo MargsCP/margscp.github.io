@@ -2,22 +2,23 @@ import logo from "./logo.svg";
 import "./App.css";
 import NavBar from "./components/common/NavBar";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
-import { InlineWidget } from "react-calendly";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+ import AboutPage from "./components/pages/AboutPage";
+import HomePage from "./components/pages/HomePage";
+import ServicesPage from "./components/pages/ServicesPage";
+import ContactPage from "./components/pages/ContactPage";
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <NavBar></NavBar>
-
-      <div className="container">
-        <div className="card mt-4 mb-5">
-          <div className="card-body text-center p-3">Hello</div>
-        </div>
-          <div className="col-3 p-3">
-            <InlineWidget url="https://calendly.com/carson-brantley"></InlineWidget>
-          </div>
-      </div>
-    </div>
+      <Routes>
+        <Route path="/" element={<HomePage/>}/>
+        <Route path="/about" element={<AboutPage/>}/>
+        <Route path="/services" element={<ServicesPage/>}/>
+        <Route path="/contact" element={<ContactPage/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
