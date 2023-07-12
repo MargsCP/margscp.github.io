@@ -36,10 +36,10 @@ export default function NavBar() {
             </Link>
           </li>
           <li className="nav-item active">
-            <Link className="nav-link text-light">Services</Link>
+            <Link className="nav-link text-light" to="/services">Services</Link>
           </li>
           <li className="nav-item active">
-            <Link className="nav-link text-light">Contact Us</Link>
+            <Link className="nav-link text-light" to="/contact">Contact Us</Link>
           </li>
           <li className="nav-item active">
             <SocialIcon url="https://www.linkedin.com/in/margie-witz-clarke-507b7084/"></SocialIcon>
