@@ -6,7 +6,7 @@ export default function HomePage() {
   return (
     <div className="container-fluid bg-light ">
       <div className="card mt-4 mb-5">
-        <div className="card-body text-center p-3 text-center">Hello</div>
+        <div className="card-body text-center p-3 text-center">Home Page placeholder</div>
       </div>
       <div className="row mb-5">
         <div className="col col-6 mt-2 border pt-3 ">
