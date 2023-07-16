@@ -2,23 +2,23 @@ import React from "react";
 import "./AboutMe.css";
 import aboutMeImage from "../../images/about-me-image.png";
 
-
 export default function AboutMe() {
   return (
     <div className="container">
       <h1 className="mt-2 text-center about-me-title">about me</h1>
       <hr className="horizontal-line text-center"></hr>
       <div className="row mt-5">
-        <div className="col-6 mt-4">
+        <div className="col-lg-6 my-4">
           <img
             id="about-me-img"
             src={aboutMeImage}
             alt="Margie Clarke"
             height="340"
-            width="380"
+            width="350"
+            className="mx-auto"
           ></img>
         </div>
-        <div className="col-6">
+        <div className="col-lg-6">
           <h4 className="mb-3">Margie Clarke</h4>
           <h6>
             Practicing 10+ years <i className="bi bi-dot"></i> BSc Physiotherapy
