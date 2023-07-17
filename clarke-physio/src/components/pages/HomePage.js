@@ -8,7 +8,7 @@ import Footer from "./Footer";
 
 export default function HomePage() {
   return (
-      <div className="container-fluid bg-light text-center">
+      <div className="container-fluid bg-light">
         <Introduction></Introduction>
         <AboutMe></AboutMe>
         <Booking></Booking>
