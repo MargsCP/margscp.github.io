@@ -7,7 +7,7 @@ import { SocialIcon } from "react-social-icons";
 
 export default function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark px-3 fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark px-3 position-sticky fixed-top">
       <div className="container-fluid">
         <a className="navbar-brand text-light ms-auto" href="#">
           Clarke Physiotherapy
@@ -50,6 +50,14 @@ export default function NavBar() {
           <ul className="navbar-nav ms-auto">
     
             <li className="nav-item active me-auto">
+              <a href="https://www.linkedin.com/in/margie-witz-clarke-507b7084/" target="_blank">
+                <i className="bi bi-linkedin fa-2x mx-2 p-0 m-0" style={{fontSize: "2em"}}>
+                </i>
+              </a>
+              <a href="https://api.whatsapp.com/send/?phone=17173710984" target="_blank">
+                <i className="bi bi-whatsapp fa-2x mx-2" style={{fontSize: "2em", color: "green"}}>
+                </i>
+              </a>
               <SocialIcon
                 className="mx-2"
                 url="https://www.linkedin.com/in/margie-witz-clarke-507b7084/"

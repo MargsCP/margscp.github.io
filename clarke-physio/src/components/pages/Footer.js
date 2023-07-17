@@ -52,19 +52,19 @@ export default function Footer() {
                   <span className="fa-li">
                     <i className="fas fa-home"></i>
                   </span>
-                  <span className="ms-2">Warsaw, 00-967, Poland</span>
+                  <span className="ms-2">Station House, 19 Kloof Rd, Sea Point, Cape Town, 8005</span>
                 </li>
                 <li className="mb-3">
                   <span className="fa-li">
                     <i className="fas fa-envelope"></i>
                   </span>
-                  <span className="ms-2">clarke@example.com</span>
+                  <span className="ms-2">clarke@EMAILDOMAIN.com</span>
                 </li>
                 <li className="mb-3">
                   <span className="fa-li">
                     <i className="fas fa-phone"></i>
                   </span>
-                  <span className="ms-2">+ 48 234 567 88</span>
+                  <span className="ms-2">Whatsapp (messages only) : + 48 234 567 88</span>
                 </li>
               </ul>
             </div>
