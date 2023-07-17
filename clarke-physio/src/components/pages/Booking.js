@@ -5,8 +5,8 @@ import "./styles.css";
 export default function Booking() {
   return (
     <div className="container">
-      <h1 className="mt-2 text-center header">Contact Us</h1>
-      <hr className="horizontal-line text-center"></hr>
+      <h1 className="mt-2 text-center header mt-5">Contact Us</h1>
+      <hr className="horizontal-line text-center mb-10"></hr>
       <div className="row pb-5">
         <div className="col-lg-6 mt-2 border pt-3 text-center">
           <h2>Place a Booking</h2>
