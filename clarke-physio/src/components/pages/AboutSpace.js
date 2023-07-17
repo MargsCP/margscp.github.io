@@ -31,10 +31,10 @@ export default function AboutSpace() {
             Clarke Physiotherapy is located in the heart of Sea Point, Cape Town, within the contemporary setting of the new <p><a class="link-opacity-100" href="https://stationhouseseapoint.co.za/">Station House</a></p>. Our facility is thoughtfully designed to cater to your rehabilitation needs with a dedicated gym space for exercise and rehabilitation, while the practice rooms are situated on level 5, offering a tranquil and comfortable setting for your physiotherapy sessions. Working closely with our exceptional team of biokineticists (Link to Kevin Oliver), we provide comprehensive care and support for your well-being. 
 
 Notes for coming to the space:
--Available paid underground parking (1 hour R15; 2 hours R25)
--Enter through the reception area on  ground floor reception with facial recognition technology,
--Practice rooms are on Level 5, while the gym space is Level 6
--Coffee shop on the ground floor
+<li>Available paid underground parking (1 hour R15; 2 hours R25)</li>
+<li>Enter through the reception area on  ground floor reception with facial recognition technology</li>
+<li>Practice rooms are on Level 5, while the gym space is Level 6</li>
+<li>Coffee shop on the ground floor </li>
 
           </p>
         </div>

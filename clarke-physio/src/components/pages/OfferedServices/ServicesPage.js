@@ -7,8 +7,8 @@ export default function ServicesPage() {
 
   return (
     <>
-    <h1 className="mt-2 text-center header">Our Services</h1>
-      <hr className="horizontal-line text-center"></hr>
+    <h1 className="mt-5  text-center header">Our Services</h1>
+      <hr className="horizontal-line text-center mb-5"></hr>
     <div style ={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center", flexWrap: "wrap", gap: 20}}>
       
       {servicesArray.map((service) => {

@@ -40,7 +40,7 @@ transform: rotateY(180deg)
     backface-visibility: hidden;
     background: #9DC183;
     color: black;
-    border: solid 3px black;
+    border: solid 3px rgb(88, 86, 86);
     border-radius: 8px;
     display: "flex";
     

@@ -4,9 +4,9 @@ import aboutMeImage from "../../images/about-me-image.png";
 
 export default function AboutMe() {
   return (
-    <div className="container">
-      <h1 className="mt-2 text-center header">About Me</h1>
-      <hr className="horizontal-line text-center"></hr>
+    <div className="container mt-5">
+      <h1 className="mt-2 text-center header ">About Me</h1>
+      <hr className="horizontal-line text-center mb-5"></hr>
       <div className="row mt-3">
         <div className="col-lg-6 my-4">
           <img
