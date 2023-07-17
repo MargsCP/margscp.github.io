@@ -4,6 +4,7 @@ import { SocialIcon } from "react-social-icons";
 import AboutMe from "./AboutMe";
 import Introduction from "./Introduction";
 import Booking from "./Booking";
+import Footer from "./Footer";
 
 export default function HomePage() {
   return (
@@ -11,7 +12,7 @@ export default function HomePage() {
         <Introduction></Introduction>
         <AboutMe></AboutMe>
         <Booking></Booking>
-
+        <Footer></Footer>
       </div>
   );
 }
