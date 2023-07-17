@@ -5,7 +5,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import "../node_modules/bootstrap-icons/font/bootstrap-icons.css"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./components/pages/HomePage";
-import ServicesPage from "./components/pages/ServicesPage";
+import ServicesPage from "./components/pages/OfferedServices/ServicesPage";
 import ContactPage from "./components/pages/ContactPage";
 import AboutMe from "./components/pages/AboutMe";
 import Footer from "./components/pages/Footer";

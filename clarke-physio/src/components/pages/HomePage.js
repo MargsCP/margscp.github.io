@@ -6,6 +6,7 @@ import Introduction from "./Introduction";
 import Booking from "./Booking";
 import Footer from "./Footer";
 import AboutSpace from "./AboutSpace";
+import ServicesPage from "./OfferedServices/ServicesPage";
 
 export default function HomePage() {
   return (
@@ -14,7 +15,9 @@ export default function HomePage() {
         <Introduction></Introduction>
         <AboutMe></AboutMe>
         <AboutSpace></AboutSpace>
+        <ServicesPage></ServicesPage>
         <Booking></Booking>
+        
       </div>
     </>
   );
