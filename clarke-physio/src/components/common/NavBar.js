@@ -7,7 +7,7 @@ import { SocialIcon } from "react-social-icons";
 
 export default function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark px-3">
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark px-3 fixed-top">
       <div className="container-fluid">
         <a className="navbar-brand text-light ms-auto" href="#">
           Clarke Physiotherapy

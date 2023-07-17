@@ -58,7 +58,7 @@ export default function Footer() {
                   <span className="fa-li">
                     <i className="fas fa-envelope"></i>
                   </span>
-                  <span className="ms-2">contact@example.com</span>
+                  <span className="ms-2">clarke@example.com</span>
                 </li>
                 <li className="mb-3">
                   <span className="fa-li">

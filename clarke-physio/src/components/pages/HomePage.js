@@ -8,11 +8,12 @@ import Footer from "./Footer";
 
 export default function HomePage() {
   return (
-      <div className="container-fluid bg-light">
+    <>
+      <div className="container-fluid wrapper">
         <Introduction></Introduction>
         <AboutMe></AboutMe>
         <Booking></Booking>
-        <Footer></Footer>
       </div>
+    </>
   );
 }

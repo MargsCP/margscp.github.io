@@ -7,17 +7,19 @@ import HomePage from "./components/pages/HomePage";
 import ServicesPage from "./components/pages/ServicesPage";
 import ContactPage from "./components/pages/ContactPage";
 import AboutMe from "./components/pages/AboutMe";
+import Footer from "./components/pages/Footer";
 
 function App() {
   return (
     <BrowserRouter>
       <NavBar></NavBar>
       <Routes>
-        <Route path="/" element={<HomePage/>}/>
-        <Route path="/about" element={<AboutMe/>}/>
-        <Route path="/services" element={<ServicesPage/>}/>
-        <Route path="/contact" element={<ContactPage/>}/>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutMe />} />
+        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
+      <Footer></Footer>
     </BrowserRouter>
   );
 }
