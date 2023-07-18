@@ -4,7 +4,7 @@ import aboutMeImage from "../../images/about-me-image.png";
 
 export default function AboutMe() {
   return (
-    <div className="container mt-5">
+    <div className="container-fluid pt-5 aboutMe-bg">
       <h1 className="mt-2 text-center header ">About Me</h1>
       <hr className="horizontal-line text-center mb-5"></hr>
       <div className="row mt-3">

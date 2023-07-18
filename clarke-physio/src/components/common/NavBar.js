@@ -9,7 +9,7 @@ export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark px-3 position-sticky fixed-top">
       <div className="container-fluid">
-        <a className="navbar-brand text-light ms-auto" href="#">
+        <a className="navbar-brand text-light ms-auto" href="/#">
           Clarke Physiotherapy
         </a>
         <button
@@ -37,14 +37,14 @@ export default function NavBar() {
               </Link>
             </li>
             <li className=" nav-item active ">
-              <Link className="nav-link text-light" to="/services">
+              <a className="nav-link text-light" href="#services">
                 Services
-              </Link>
+              </a>
             </li>
             <li className=" nav-item active ">
-              <Link className="nav-link text-light" to="/contact">
+              <a className="nav-link text-light" href="#booking">
                 Contact Us
-              </Link>
+              </a>
             </li>
           </ul>
           <ul className="navbar-nav ms-auto">

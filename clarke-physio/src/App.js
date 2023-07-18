@@ -8,6 +8,7 @@ import HomePage from "./components/pages/HomePage";
 import ServicesPage from "./components/pages/OfferedServices/ServicesPage";
 import ContactPage from "./components/pages/ContactPage";
 import AboutMe from "./components/pages/AboutMe";
+import AboutPage from "./components/pages/AboutPage";
 import Footer from "./components/pages/Footer";
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       <NavBar></NavBar>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutMe />} />
+        <Route path="/about" element={<AboutPage/>} />
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>

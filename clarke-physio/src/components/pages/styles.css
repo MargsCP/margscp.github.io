@@ -15,7 +15,7 @@
 
 
 .header {
-    color: rgb(77, 125, 77);
+    color: black;
 }
 
 .centered {
@@ -28,6 +28,23 @@
 .title {
     color: rgb(169, 230, 181);
     font-size: 4.5vw;
+}
+
+.aboutMe-bg {
+    background-color: rgb(241, 239, 235);
+
+}
+
+.aboutSpace-bg {
+    background-color: rgb(238, 235, 229);
+}
+
+.services-bg {
+    background-color: rgb(144, 146, 140);
+}
+
+.services2-bg {
+    background-color: rgb(238, 235, 229);
 }
 
 .footer-bg {
