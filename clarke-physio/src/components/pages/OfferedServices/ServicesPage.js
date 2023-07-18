@@ -5,7 +5,7 @@ import "../styles.css";
 
 export default function ServicesPage() {
   return (
-    <div className="pt-5 services-bg">
+    <div className="py-5 services-bg">
       <h1 id="services" className="text-center header">
         Our Services
       </h1>

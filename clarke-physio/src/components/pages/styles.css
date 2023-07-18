@@ -26,8 +26,8 @@
 }
 
 .title {
-    color: rgb(169, 230, 181);
-    font-size: 4.5vw;
+    color: white;
+    font-size: 5vw;
 }
 
 .aboutMe-bg {
@@ -37,6 +37,7 @@
 
 .aboutSpace-bg {
     background-color: rgb(238, 235, 229);
+    min-height: 700px;
 }
 
 .services-bg {
@@ -47,14 +48,18 @@
     background-color: rgb(238, 235, 229);
 }
 
-.footer-bg {
+.booking-bg {
     background-color: rgb(167, 154, 139);
+}
+
+.footer-bg {
+    background-color: black;
 }
 
 
 .horizontal-line {
-    color: rgb(117, 154, 117);
-    width: 200px;
+    color: black;
+    width: 80%;
     border: 3px solid;
     margin-left: auto;
     margin-right: auto;

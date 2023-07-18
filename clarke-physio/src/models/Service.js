@@ -55,7 +55,7 @@ servicesArray.push(dryNeedling)
 servicesArray.push(massages)
 servicesArray.push(assessments)
 servicesArray.push(rehab)
-servicesArray.push(advice)
+// servicesArray.push(advice)
 servicesArray.push(manualTherapy)
 servicesArray.push(strapping)
 
