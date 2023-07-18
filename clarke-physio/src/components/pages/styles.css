@@ -1,12 +1,7 @@
-#about-me-img {
-  border-radius: 5px;
-  margin: auto;
-  display: block;
-}
-
 #title-img {
-  height: 500px;
+  height: 730px;
   filter: brightness(70%);
+  position: relative;
 }
 
 .wrapper {
@@ -17,16 +12,117 @@
   color: rgb(77, 125, 77);
 }
 
-.centered {
+.title {
+  color: white;
   position: absolute;
-  top: 50%;
+  font-size: 150px;
+  width: 97%;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgba(204, 204, 204, 0.5);
+  display: inline-block;
+  padding: 0.2em 0.2em 0.2em 0.2em;
+  line-height: 120px;
+}
+
+.subtitle-holder {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+  position: absolute;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.title {
+.book-btn-holder {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.book-btn {
+  border-radius: 0%;
+  border-color: transparent;
+  width: 250px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .title {
     color: white;
-    font-size: 4.5vw;
+    font-size: 40px;
+    width: 97%;
+    top: 500px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgba(204, 204, 204, 0.5);
+    display: inline-block;
+    padding: 0.2em 0.2em 0.2em 0.2em;
+    line-height: 50px;
+  }
+
+  .subtitle-holder {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    width: 300px;
+    margin-left: 25px;
+    top: 600px;
+  }
+
+  .book-btn {
+    border-radius: 0%;
+    border-color: transparent;
+    width: 200px;
+    font-size: 18px;
+  }
+
+  .book-btn-holder {
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .title {
+    color: white;
+    font-size: 90px;
+    width: 97%;
+    top: 400px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgba(204, 204, 204, 0.5);
+    display: inline-block;
+    padding: 0.2em 0.2em 0.2em 0.2em;
+    line-height: 50px;
+  }
+
+  .subtitle-holder {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    width: 300px;
+    margin-left: 25px;
+    top: 500px;
+  }
+
+  .book-btn {
+    border-radius: 0%;
+    border-color: transparent;
+    width: 200px;
+    font-size: 18px;
+  }
+
+  .book-btn-holder {
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 .horizontal-line {
@@ -39,17 +135,4 @@
 
 .primary-row {
   background-color: rgb(37, 46, 37);
-}
-
-.book-btn-holder {
-  position: absolute;
-  top: 63%;
-  left: 50%;
-  transform: translate(-50%, -50%);
- 
-}
-
-.book-btn {
-    border-radius: 0%;
-    border-color: transparent;
 }
