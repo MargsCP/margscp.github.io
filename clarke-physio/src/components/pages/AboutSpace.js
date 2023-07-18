@@ -19,7 +19,7 @@ export default function AboutSpace() {
           ></img>
         </div>
         <div className="col-lg-6">
-          <h4 className="mb-3">Margie Clarke</h4>
+          <h4 className="mb-3">Station House</h4>
           <h6>
             Easy to access <i className="bi bi-dot"></i> Serene
              <i className="bi bi-dot"></i> Well equiped

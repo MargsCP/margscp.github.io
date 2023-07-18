@@ -10,7 +10,7 @@ import AboutSpace from "./AboutSpace";
 export default function HomePage() {
   return (
     <>
-      <div className="container-fluid wrapper">
+      <div className="wrapper">
         <Introduction></Introduction>
         <AboutMe></AboutMe>
         <AboutSpace></AboutSpace>

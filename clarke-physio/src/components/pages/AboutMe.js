@@ -1,38 +1,43 @@
 import React from "react";
 
-
-
 import "./AboutMe.css";
 
 import aboutMeImage from "../../images/about-me-image.png";
 
+import { Link } from "react-router-dom";
+
 export default function AboutMe() {
   return (
-      <div className="container">
-        <h1 className="mt-2 text-center green-text">About Me</h1>
-        <hr className="horizontal-line text-center"></hr>
-        <div className="row mt-4">
-          <div className="col-lg-6 my-5">
-            <img
-              id="about-me-img"
-              src={aboutMeImage}
-              alt="Margie Clarke"
-              height="400"
-              width="360"
-              className="mx-auto"
-            ></img>
-          </div>
-          <div className="col-lg-6">
-            <h4 className="mb-3">Margie Clarke</h4>
-            <h6 className="green-text">
+    <div className="container">
+      <div className="row mt-4">
+        <div className="col-lg-6 my-5">
+          <img
+            id="about-me-img"
+            src={aboutMeImage}
+            alt="Margie Clarke"
+            height="400"
+            width="360"
+            className="mx-auto"
+          ></img>
+        </div>
+        <div className="col-lg-6">
+          <div className="text-wrap">
+            <h2 className="mb-3 text-secondary">Margie Clarke</h2>
+            <h4>
               Practicing 10+ years <i className="bi bi-dot"></i> BSc
               Physiotherapy (UCT) <i className="bi bi-dot"></i> 1086235
-            </h6>
-            <div className="fs-6">
+            </h4>
+            <div className="fs-4 mt-2">
               I'm Margie Clarke (BSc Physiotherapy (UCT) ), the proud owner of
               Clarke Physiotherapy, with over a decade of expertise and a
               passion for holistic healing. <br></br>
-              <br></br> As a dedicated physiotherapist, I thrive on
+              <Link to="/about">
+                {" "}
+                <btn className="btn btn-secondary read-more-btn mt-3">
+                  READ MORE
+                </btn>
+              </Link>
+              {/* <br></br> As a dedicated physiotherapist, I thrive on
               problem-solving and having a deep understanding of each patient's
               unique journey. I believe that everyone's healing journey is a
               personalized process and may not be linear. I aim to educate and
@@ -44,10 +49,11 @@ export default function AboutMe() {
               live their best life and enjoy activities they love. By
               considering the body's interconnectedness, I aim to improve
               overall function and promote a sense of well-being.<br></br>
-              <br></br>
+              <br></br> */}
             </div>
           </div>
-          <div className="row ms-1">
+        </div>
+        {/* <div className="row ms-1">
             Beyond the walls of the practice, you'll often find me enjoying the
             perks of Cape Town, whether it's exploring scenic hiking trails,
             swinging a racket on the tennis court, or engaging in a game of
@@ -74,8 +80,8 @@ export default function AboutMe() {
               <li>Lower back pain</li>
               <li>Injury prevention</li>
             </ul>
-          </div>
-        </div>
+          </div> */}
       </div>
+    </div>
   );
 }
