@@ -28,7 +28,7 @@ export default function AboutSpace() {
             Our space is beautiful and designed specifically with your wellness and comfort in mind
             <br></br>
             <br></br>
-            Clarke Physiotherapy is located in the heart of Sea Point, Cape Town, within the contemporary setting of the new <p><a class="link-opacity-100" href="https://stationhouseseapoint.co.za/">Station House</a></p>. Our facility is thoughtfully designed to cater to your rehabilitation needs with a dedicated gym space for exercise and rehabilitation, while the practice rooms are situated on level 5, offering a tranquil and comfortable setting for your physiotherapy sessions. Working closely with our exceptional team of biokineticists (Link to Kevin Oliver), we provide comprehensive care and support for your well-being. 
+            Clarke Physiotherapy is located in the heart of Sea Point, Cape Town, within the contemporary setting of the new <p><a class="link-opacity-100" href="https://stationhouseseapoint.co.za/">Station House</a></p>Our facility is thoughtfully designed to cater to your rehabilitation needs with a dedicated gym space for exercise and rehabilitation, while the practice rooms are situated on level 5, offering a tranquil and comfortable setting for your physiotherapy sessions. Working closely with our exceptional team of biokineticists (Link to Kevin Oliver), we provide comprehensive care and support for your well-being. 
 
 Notes for coming to the space:
 <li>Available paid underground parking (1 hour R15; 2 hours R25)</li>

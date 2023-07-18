@@ -1,11 +1,11 @@
 import React from "react";
-import "./Footer.css";
+import "./styles.css";
 export default function Footer() {
   return (
     <>
       <footer
         id="footer"
-        className="text-white text-center text-lg-start bg-dark"
+        className="text-white text-center text-lg-start footer-bg"
       >
         <div className="container p-4">
           <div className="row mt-4">

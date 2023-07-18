@@ -3,8 +3,8 @@ import titleImg from "../../images/mountain.jpeg";
 
 export default function Introduction() {
   return (
-    <div className="container-fluid text-center">
-      <div className="container-fluid position-relative" >
+    <div className="text-center">
+      <div className="position-relative" >
         <img
           id="title-img"
           src={titleImg}

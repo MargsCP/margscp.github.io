@@ -10,7 +10,7 @@ export default function Booking() {
       <div className="row pb-5">
         <div className="col-lg-6 mt-2 border pt-3 text-center">
           <h2>Place a Booking</h2>
-          <InlineWidget url="https://calendly.com/carson-brantley"></InlineWidget>
+          <InlineWidget url="https://calendly.com/clarkephysiotherapy/60min"></InlineWidget>
         </div>
 
         <div className="col-lg-6 mt-2 border-top border-end border-bottom pt-3 text-center">

@@ -51,32 +51,15 @@ export default function NavBar() {
     
             <li className="nav-item active me-auto">
               <a href="https://www.linkedin.com/in/margie-witz-clarke-507b7084/" target="_blank">
-                <i className="bi bi-linkedin fa-2x mx-2 p-0 m-0" style={{fontSize: "2em"}}>
+                <i className="bi bi-linkedin fa-2x mx-2 p-0 m-0" style={{fontSize: "1em", color: "white"}}>
                 </i>
               </a>
               <a href="https://api.whatsapp.com/send/?phone=17173710984" target="_blank">
-                <i className="bi bi-whatsapp fa-2x mx-2" style={{fontSize: "2em", color: "green"}}>
+                <i className="bi bi-whatsapp fa-2x mx-2" style={{fontSize: "1em", color: "white"}}>
                 </i>
               </a>
-              <SocialIcon
-                className="mx-2"
-                url="https://www.linkedin.com/in/margie-witz-clarke-507b7084/"
-              ></SocialIcon>
-              <SocialIcon url="https://api.whatsapp.com/send/?phone=17173710984"></SocialIcon>
             </li>
           </ul>
-
-          {/* <form class="form-inline my-2 my-lg-0 ml-auto">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form> */}
         </div>
       </div>
     </nav>
