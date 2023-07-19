@@ -1,5 +1,7 @@
 #title-img {
-  height: 730px;
+  width: 100%;
+  object-fit: cover;
+  height: 700px;
   filter: brightness(70%);
   position: relative;
 }
