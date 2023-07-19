@@ -1,0 +1,65 @@
+.mainContainer{
+    position: relative;
+    width: 375px;
+    height: 215px;
+    margin-left: 5px
+    
+
+
+}
+
+.mainContainer:hover{
+        transform: scale(1.1);
+        transition: .7s
+    
+}
+
+.theCard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+    cursor: pointer;
+    
+}
+
+
+/* .theCard:hover{
+transform: rotateY(180deg)
+} */
+
+.isFlipped{
+    transform: rotateY(180deg)
+}
+
+.theFront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: black;
+    border: solid 3px black;
+    display: "flex";
+    background-color: rgba(0, 0, 0, 0.9)
+    
+
+
+}
+
+
+
+
+.theBack{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: #333;
+    transform: rotateY(180deg);
+    border: solid 3px black;
+    background: lightgray;
+
+
+
+}

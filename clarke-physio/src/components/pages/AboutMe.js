@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 
 export default function AboutMe() {
   return (
+
       <div className="row about-me-row">
         <div className="col-lg-6 col-12">
           <div className="about-me-paragraph ms-5">
@@ -31,6 +32,7 @@ export default function AboutMe() {
           </div>
         </div>
         <div className="col-lg-6 col-12 my-5">
+   
           <img
             id="about-me-img"
             src={aboutMeImage}

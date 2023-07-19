@@ -1,7 +1,19 @@
+
 #title-img {
   height: 730px;
   filter: brightness(70%);
   position: relative;
+  
+#services{
+    color: #623E29;
+    font-family: "Abhaya Libre";
+    font-size: 45px;
+}
+
+#about-me-img {
+    border-radius: 5px;
+    margin: auto;    
+    display: block;
 }
 
 .wrapper {
@@ -10,6 +22,7 @@
 
 .header {
   color: rgb(77, 125, 77);
+
 }
 
 .title {
@@ -109,6 +122,23 @@
     margin-left: 25px;
     top: 500px;
   }
+
+.aboutSpace-bg {
+    background-color: rgb(238, 235, 229);
+}
+
+.services-bg {
+    background-color: rgb(144, 146, 140);
+}
+
+.services2-bg {
+    background-color: rgb(238, 235, 229);
+}
+
+.footer-bg {
+    background-color: rgb(167, 154, 139);
+}
+
 
   .book-btn {
     border-radius: 0%;
