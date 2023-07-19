@@ -15,7 +15,7 @@
 }
 
 .greeting {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Abhaya-Libre';
 }
 
 .green-text {
@@ -38,6 +38,11 @@
 
   .about-me-paragraph {
     margin-top: 80px;
+  }
+
+  #about-me-img {
+    width: 300px!important;
+    height: 350px!important;
   }
 }
 

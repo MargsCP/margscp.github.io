@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import aboutMeImage from "../../images/stock-office.png";
+import aboutSpaceImage from "../../images/stock-office.png";
 
 export default function AboutSpace() {
   return (
@@ -10,8 +10,8 @@ export default function AboutSpace() {
       <div className="row mt-5">
         <div className="col-lg-6 my-4">
           <img
-            id="about-me-img"
-            src={aboutMeImage}
+            id="about-space-img"
+            src={aboutSpaceImage}
             alt="Margie Clarke"
             height="340"
             width="370"
