@@ -47,6 +47,9 @@
 
 .services-bg {
     background-color: rgb(144, 146, 140);
+    /* border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border: solid black 4px; */
 }
 
 .services2-bg {
