@@ -10,7 +10,7 @@ export default function Introduction() {
       </div>
       <div className="subtitle-holder row">Sea Point, Cape Town</div>
       <div className="book-btn-holder">
-        <button className="btn btn-secondary book-btn">BOOK APPOINTMENT</button>
+        <button className="btn btn-light book-btn fw-medium">BOOK APPOINTMENT</button>
       </div>
     </div>
   );
