@@ -48,26 +48,7 @@ export default function AboutPage() {
               activities – I am an enthusiastic food and travel lover, finding
               immense joy in discovering new culinary experiences and exploring
               different cultures.<br></br>
-              <br></br>{" "}
-              {/* At Clarke Physiotherapy, expect exceptional care,
-              customized treatment plans, and a welcoming environment. Together,
-              we'll embark on a healing journey that combines clinical expertise
-              with your overall well-being. Collaboration and communication are
-              important in my management. I work closely with patients and other
-              practitioners to ensure a comprehensive and integrated approach to
-              treatment.<br></br>
               <br></br>
-              Some of my special interests include, but are not limited to:
-              <br></br>
-              <ul>
-                <li>Pre and post-operative rehabilitation</li>
-                <li>
-                  Orthopedic and Musculoskeletal conditions or injuries,
-                  specifically foot, ankle or knees
-                </li>
-                <li>Lower back pain</li>
-                <li>Injury prevention</li>
-              </ul> */}
             </div>
           </div>
         </div>
@@ -102,7 +83,7 @@ export default function AboutPage() {
           </div>
 
           <div className="col-lg-5 col-img">
-            <img src={outdoorImage} alt="#" height="450" width="600" className="outdoorImg"></img>
+            <img src={outdoorImage} alt="#" height="450" width="600" className="outdoorImg mb-3"></img>
           </div>
 
       </div>
