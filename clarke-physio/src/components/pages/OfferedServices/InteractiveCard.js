@@ -22,7 +22,7 @@ export default function InteractiveCard (props){
     alt= "dryNeedling"
     position= "absolute"
     style={{opacity: .65, objectFit: "cover",background: "white"}}/>
-            <h3 style={{position: "absolute",top: 0, textAlign: "center", fontFamily: 'Abhaya Libre', marginTop: "15%", color: "white ", fontSize: 45, opacity: 1, width: "100%", alignItems: "center"}}>{props.service.name}</h3>
+            <h3 style={{position: "absolute",top: 0, textAlign: "center", fontFamily: 'Abhaya Libre', marginTop: "17%", color: "white ", fontSize: 45, opacity: 1, width: "100%", alignItems: "center"}}>{props.service.name}</h3>
           
         
       </div>
