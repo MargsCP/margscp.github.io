@@ -4,17 +4,16 @@
   position: relative;
 }
 
-  #services {
-    color: #623e29;
-    font-family: "Abhaya Libre";
-  }
+#services {
+  color: #623e29;
+  font-family: "Abhaya Libre";
+}
 
-  #about-me-img {
-    border-radius: 5px;
-    margin: auto;
-    display: block;
-  }
-
+#about-me-img {
+  border-radius: 5px;
+  margin: auto;
+  display: block;
+}
 
 #about-me-img {
   border-radius: 5px;
@@ -149,6 +148,19 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+  .carousel-text {
+    font-size: 15px!important;
+    width: 70%!important;
+  }
+
+  .testimonial-carousel {
+    margin-top: 0px!important;
+  }
+
+  .carousel-title {
+    margin-bottom: 0px!important;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1290px) {
@@ -240,4 +252,40 @@
 }
 .primary-row {
   background-color: rgb(37, 46, 37);
+}
+
+.carousel-holder {
+  height: 675px;
+  text-align: center;
+  background-color: rgb(241, 239, 235);
+}
+
+.carousel-title {
+  font-family: "Abhaya Libre";
+  height: 100px;
+  margin-top: 100px;
+}
+
+.carousel-text {
+  width: 90%;
+}
+
+.testimonial-carousel {
+  margin-top: 0px!important;
+  margin-bottom: 500px;
+}
+
+.testimonial-hr {
+  width: 40%;
+  border: 3px solid black;
+}
+
+.testimonial-profile {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.testimonial-rating {
+  color: rgb(218, 218, 77);
 }
