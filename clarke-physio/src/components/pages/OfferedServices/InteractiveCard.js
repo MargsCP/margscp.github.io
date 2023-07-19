@@ -21,15 +21,15 @@ export default function InteractiveCard (props){
     height= "100%"
     alt= "dryNeedling"
     position= "absolute"
-    style={{opacity: .65, objectFit: "cover",background: "white"}}/>
-            <h3 style={{position: "absolute",top: 0, textAlign: "center", fontFamily: 'Abhaya Libre', marginTop: "15%", color: "white ", fontSize: 45, opacity: 1, width: "100%", alignItems: "center"}}>{props.service.name}</h3>
+    style={{opacity: .65, objectFit: "cover", background: "white"}}/>
+            <h3 style={{position: "absolute",top: 0, textAlign: "center", fontFamily: 'Abhaya Libre', marginTop: "17%", color: "white ", fontSize: 45, opacity: 1, width: "100%", alignItems: "center"}}>{props.service.name}</h3>
           
         
       </div>
       <div className="theBack" style={{objectFit: "cover"}} > 
-        <div style={{padding: 8}}>
+        <div style={{padding: 8, width: "100%"}}>
           <h4 style={{textAlign: "center", fontFamily: "Abhaya Libre"}}> {props.service.name}</h4>
-          <p style={{textAlign: "center", fontFamily: 'Kanit'}}> {props.service.description}</p>
+          <p style={{textAlign: "center", fontFamily: 'Kanit', }}> {props.service.description}</p>
         </div>
       </div>
     </div>

@@ -4,11 +4,17 @@
   position: relative;
 }
 
-#services {
-  color: #623e29;
-  font-family: "Abhaya Libre";
-  font-size: 45px;
-}
+  #services {
+    color: #623e29;
+    font-family: "Abhaya Libre";
+  }
+
+  #about-me-img {
+    border-radius: 5px;
+    margin: auto;
+    display: block;
+  }
+
 
 #about-me-img {
   border-radius: 5px;
