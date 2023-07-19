@@ -5,8 +5,8 @@ import "../styles.css";
 
 export default function ServicesPage() {
   return (
-    <div className="py-5 services-bg">
-      <h1 id="services" className="text-center header">
+    <div className="py-5 services-bg" id="services">
+      <h1 className="text-center header">
         Our Services
       </h1>
       <hr className="horizontal-line text-center mb-5"></hr>
