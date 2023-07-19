@@ -24,7 +24,7 @@ export default function ServicesPage() {
           return <InteractiveCard service={service} />;
         })}
       </div>
-    </div>
+    
         // </div>
   );
 }
