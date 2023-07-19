@@ -4,226 +4,234 @@
   position: relative;
 }
 
-  #services {
-    color: #623e29;
-    font-family: "Abhaya Libre";
-    font-size: 45px;
-  }
-
-  #about-me-img {
-    border-radius: 5px;
-    margin: auto;
-    display: block;
-  }
-
-  .wrapper {
-    background-color: rgb(234, 234, 238);
-  }
-
-  .header {
-    color: black;
-  }
-
-  .title-holder {
-    color: white;
-    position: absolute;
-    font-size: 150px;
-    width: 97%;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: "Abhaya-Libre";
-    background-color: rgba(204, 204, 204, 0.5);
-    display: inline-block;
-    padding: 0.2em 0.2em 0.2em 0.2em;
-    line-height: 120px;
-  }
-
-
-
-
-.title {
-    color: white;
-    font-size: 5vw;
+#services {
+  color: #623e29;
+  font-family: "Abhaya Libre";
+  font-size: 45px;
 }
 
+#about-me-img {
+  border-radius: 5px;
+  margin: auto;
+  display: block;
+}
 
+.wrapper {
+  background-color: rgb(234, 234, 238);
+}
+
+.header {
+  color: black;
+}
+
+.title-holder {
+  position: absolute;
+  font-size: 150px;
+  width: 97%;
+  top: 60%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  font-family: "Abhaya-Libre";
+  background-color: rgba(204, 204, 204, 0.5);
+  display: inline-block;
+  padding: 0.2em 0.2em 0.2em 0.2em;
+  line-height: 120px;
+}
+
+.title {
+  color: white;
+  font-size: 155px;
+}
 
 .aboutMe-bg {
-    background-color: rgb(241, 239, 235);
-
+  background-color: rgb(241, 239, 235);
 }
 
 .aboutSpace-bg {
-    background-color: rgb(214, 212, 206);
-    min-height: 700px;
+  background-color: rgb(214, 212, 206);
+  min-height: 700px;
 }
 .aboutSpace-oldbg {
-    background-color: rgb(238, 235, 229);
-    min-height: 700px;
+  background-color: rgb(238, 235, 229);
+  min-height: 700px;
 }
 
-  .subtitle-holder {
-    color: white;
-    font-family: "Abhaya-Libre";
-    font-size: 60px;
+.subtitle-holder {
+  color: white;
+  font-family: "Abhaya-Libre";
+  font-size: 40px;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.book-btn-holder {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.book-btn {
+  border-radius: 0%;
+  border-color: transparent;
+  width: 250px;
+  font-size: 20px;
+}
+
+.booking-bg {
+  background-color: rgb(167, 154, 139);
+}
+
+.aboutSpace-bg {
+  background-color: rgb(238, 235, 229);
+}
+
+.services-bg {
+  background-color: rgb(144, 146, 140);
+}
+
+.services2-bg {
+  background-color: rgb(238, 235, 229);
+}
+
+.footer-bg {
+  background-color: rgb(167, 154, 139);
+}
+
+@media only screen and (max-width: 767px) {
+  .title-holder {
     position: absolute;
-    top: 85%;
-    left: 50%;
+    top: 60%;
+    left: 53%;
     transform: translate(-50%, -50%);
+    font-size: 20px;
+    width: 97%;
+    top: 450px;
+    font-family: "Abhaya-Libre";
+    display: inline-block;
+    padding: 0.2em 0.2em 0.2em 0.2em;
+    line-height: 20px;
   }
 
-  .book-btn-holder {
+  .title {
+    font-size: 35px;
+    margin-top: 15px;
+  }
+
+  .subtitle-holder {
+    font-family: "Abhaya-Libre";
+    font-size: 24px;
     position: absolute;
-    top: 100%;
+    top: 600px;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 250px;
   }
 
   .book-btn {
     border-radius: 0%;
     border-color: transparent;
-    width: 250px;
-    font-size: 20px;
+    width: 200px;
+    font-size: 18px;
   }
 
-    .booking-bg {
-        background-color: rgb(167, 154, 139);
-    }
-
-
-    .aboutSpace-bg {
-      background-color: rgb(238, 235, 229);
-    }
-
-    .services-bg {
-      background-color: rgb(144, 146, 140);
-    }
-
-    .services2-bg {
-      background-color: rgb(238, 235, 229);
-    }
-
-    .footer-bg {
-      background-color: rgb(167, 154, 139);
-    }
-
-  @media only screen and (max-width: 767px) {
-    .title {
-      color: white;
-      font-size: 40px;
-      width: 97%;
-      top: 500px;
-      font-family: "Times New Roman", Times, serif;
-      background-color: rgba(204, 204, 204, 0.5);
-      display: inline-block;
-      padding: 0.2em 0.2em 0.2em 0.2em;
-      line-height: 50px;
-    }
-  
-
-
-
-  
-  
-    .book-btn {
-      border-radius: 0%;
-      border-color: transparent;
-      width: 200px;
-      font-size: 18px;
-    }
-
-    .book-btn-holder {
-      position: absolute;
-      top: 700px;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
+  .book-btn-holder {
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
-  
+}
 
-  @media only screen and (min-width: 768px) and (max-width: 1000px) {
-    .title {
-      color: white;
-      font-size: 90px;
-      width: 97%;
-      top: 400px;
-      font-family: "Times New Roman", Times, serif;
-      background-color: rgba(204, 204, 204, 0.5);
-      display: inline-block;
-      padding: 0.2em 0.2em 0.2em 0.2em;
-      line-height: 50px;
-    }
-
-    .subtitle-holder {
-      color: white;
-      font-family: "Times New Roman", Times, serif;
-      font-size: 30px;
-      width: 300px;
-      margin-left: 25px;
-      top: 500px;
-    }
-
-
-
-    .book-btn {
-      border-radius: 0%;
-      border-color: transparent;
-      width: 200px;
-      font-size: 18px;
-    }
-
-    .book-btn-holder {
-      position: absolute;
-      top: 600px;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .title-holder {
+    color: white;
+    font-size: 90px;
+    width: 97%;
+    top: 400px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgba(204, 204, 204, 0.5);
+    display: inline-block;
+    padding: 0.2em 0.2em 0.2em 0.2em;
+    line-height: 30px;
   }
 
-  .horizontal-line {
-    color: black;
-    width: 80%;
+  .title {
+    font-size: 75px;
+    margin-top: 10px;
   }
+
+  .subtitle-holder {
+    width: 300px;
+    margin-left: 25px;
+    top: 500px;
+  }
+
+  .subtitle {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+  }
+
+  .book-btn {
+    border-radius: 0%;
+    border-color: transparent;
+    width: 200px;
+    font-size: 18px;
+  }
+
+  .book-btn-holder {
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.horizontal-line {
+  color: black;
+  width: 80%;
+}
 
 .map {
-    width: 100%;
-    min-height: 200px;
+  width: 100%;
+  min-height: 200px;
 }
 
 .posRelative {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .posAbsolute {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 .primary-row {
-    background-color: rgb(37, 46, 37);
+  background-color: rgb(37, 46, 37);
 }
 
 @media screen and (max-width: 768px) {
-.infoBox {
+  .infoBox {
     height: 150px;
-}
+  }
 }
 @media screen and (max-width: 1200px) {
-.infoBox {
+  .infoBox {
     height: 200px;
-}
+  }
 }
 @media screen and (min-width: 1200px) {
-.infoBox {
+  .infoBox {
     height: 150px;
-}
-}
-  .primary-row {
-    background-color: rgb(37, 46, 37);
   }
+}
+.primary-row {
+  background-color: rgb(37, 46, 37);
+}

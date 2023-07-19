@@ -13,7 +13,7 @@ export default function AboutMe() {
         <div className="col-lg-6 col-12">
           <div className="about-me-paragraph ms-5">
             {" "}
-            <h1 className="text-black-50 greeting">Hi, I'm Margie!</h1>
+            <h1 className="text-black-50 greeting fst-italic">Hi, I'm Margie!</h1>
             <div className="mt-5 about-me-summary fs-5 fw-medium">
               I'm Margie Clarke, the proud owner of Clarke Physiotherapy, with
               over a decade of experience and a passion for holistic healing.
