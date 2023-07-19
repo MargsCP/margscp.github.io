@@ -1,20 +1,20 @@
 import React from "react";
 import aboutMePageImage from "../../images/about-me-image-2.jpeg";
 import "./AboutPage.css";
-import { Link } from "react-router-dom";
+import outdoorImage from "../../images/outdoor-img.jpg";
 
 export default function AboutPage() {
   return (
     <div>
       <div className="row mt-4">
-        <div className="col-lg-6 my-5">
+        <div className="col-lg-6 mb-5 mt-5">
           <img
             id="about-me-img"
             src={aboutMePageImage}
             alt="Margie Clarke"
             height="450"
             width="600"
-            className="mx-auto mt-5"
+            className="mx-auto"
           ></img>
         </div>
         <div className="col-lg-6 about-me-col">
@@ -48,7 +48,8 @@ export default function AboutPage() {
               activities – I am an enthusiastic food and travel lover, finding
               immense joy in discovering new culinary experiences and exploring
               different cultures.<br></br>
-              <br></br> At Clarke Physiotherapy, expect exceptional care,
+              <br></br>{" "}
+              {/* At Clarke Physiotherapy, expect exceptional care,
               customized treatment plans, and a welcoming environment. Together,
               we'll embark on a healing journey that combines clinical expertise
               with your overall well-being. Collaboration and communication are
@@ -66,11 +67,44 @@ export default function AboutPage() {
                 </li>
                 <li>Lower back pain</li>
                 <li>Injury prevention</li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>
         <div className="row ms-1"></div>
+      </div>
+
+      <div className="row">
+
+          <div className="col-lg-5 about-me-2-col">
+            <div className="fs-6 fw-medium">
+              At Clarke Physiotherapy, expect exceptional care, customized
+              treatment plans, and a welcoming environment. Together, we'll
+              embark on a healing journey that combines clinical expertise with
+              your overall well-being. Collaboration and communication are
+              important in my management. I work closely with patients and other
+              practitioners to ensure a comprehensive and integrated approach to
+              treatment.
+              <br></br>
+              <br></br>
+              Some of my special interests include, but are not limited to:
+              <br></br>
+              <ul>
+                <li>Pre and post-operative rehabilitation</li>
+                <li>
+                  Orthopedic and Musculoskeletal conditions or injuries,
+                  specifically foot, ankle or knees
+                </li>
+                <li>Lower back pain</li>
+                <li>Injury prevention</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="col-lg-5 col-img">
+            <img src={outdoorImage} alt="#" height="450" width="600" className="outdoorImg"></img>
+          </div>
+
       </div>
     </div>
   );
