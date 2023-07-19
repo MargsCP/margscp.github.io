@@ -4,10 +4,10 @@ import "./styles.css";
 
 export default function Booking() {
   return (
-    <div className="container-fluid footer-bg" id="booking">
+    <div className="container-fluid booking-bg" id="booking">
       <h1 className="pt-5 text-center header">Contact Us</h1>
       <hr className="horizontal-line text-center mb-10"></hr>
-      <div className="row pb-4  border-bottom">
+      <div className="row pb-4">
         <div className="col-lg-6 mt-2 pt-3 text-center">
           <h2>Place a Booking</h2>
           <InlineWidget url="https://calendly.com/clarkephysiotherapy/60min"></InlineWidget>

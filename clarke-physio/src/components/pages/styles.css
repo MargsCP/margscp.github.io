@@ -39,6 +39,30 @@
     line-height: 120px;
   }
 
+
+
+
+.title {
+    color: white;
+    font-size: 5vw;
+}
+
+
+
+.aboutMe-bg {
+    background-color: rgb(241, 239, 235);
+
+}
+
+.aboutSpace-bg {
+    background-color: rgb(214, 212, 206);
+    min-height: 700px;
+}
+.aboutSpace-oldbg {
+    background-color: rgb(238, 235, 229);
+    min-height: 700px;
+}
+
   .subtitle-holder {
     color: white;
     font-family: "Abhaya-Libre";
@@ -83,6 +107,20 @@
     border: solid black 4px; */
 }
 
+.services2-bg {
+    background-color: rgb(238, 235, 229);
+}
+
+.booking-bg {
+    background-color: rgb(167, 154, 139);
+}
+
+.footer-bg {
+    background-color: black;
+}
+
+  
+  
     .book-btn {
       border-radius: 0%;
       border-color: transparent;
@@ -159,7 +197,44 @@
     margin-right: auto;
   }
 
+.map {
+    width: 100%;
+    min-height: 200px;
+}
+
+.posRelative {
+    position: relative;
+    overflow: hidden;
+}
+
+.posAbsolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.primary-row {
+    background-color: rgb(37, 46, 37);
+}
+
+@media screen and (max-width: 768px) {
+.infoBox {
+    height: 150px;
+}
+}
+@media screen and (max-width: 1200px) {
+.infoBox {
+    height: 200px;
+}
+}
+@media screen and (min-width: 1200px) {
+.infoBox {
+    height: 150px;
+}
+}
   .primary-row {
     background-color: rgb(37, 46, 37);
   }
-

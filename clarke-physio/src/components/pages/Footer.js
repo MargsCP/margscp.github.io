@@ -5,7 +5,7 @@ export default function Footer() {
     <>
       <footer
         id="footer"
-        className="text-white text-center text-lg-start footer-bg"
+        className="text-white text-center text-lg-start bg-dark"
       >
         <div className="container p-4">
           <div className="row mt-4">

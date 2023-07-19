@@ -5,10 +5,9 @@ import "../styles.css";
 
 export default function ServicesPage() {
   return (
+    <div className="py-5 services-bg" id="services">
+      <h1 className="text-center header">
     // <div style={{backgroundImage: "linear-gradient(180deg, rgb(238, 235, 229), rgb(167, 154, 139))"}}>
-
-    <div className="pt-5 pb-5 services-bg">
-      <h1 id="services" className="text-center header">
         Our Services
       </h1>
       <hr className="horizontal-line text-center mb-5" style={{color: "#623E29", width: "50%", borderRadius: 4}} ></hr>
