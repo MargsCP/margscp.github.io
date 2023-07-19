@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import NavBar from "./components/common/NavBar";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
@@ -8,7 +7,6 @@ import HomePage from "./components/pages/HomePage";
 import ServicesPage from "./components/pages/OfferedServices/ServicesPage";
 import ContactPage from "./components/pages/ContactPage";
 
-import AboutMe from "./components/pages/AboutMe";
 import Footer from "./components/pages/Footer";
 import AboutPage from "./components/pages/AboutPage";
 
