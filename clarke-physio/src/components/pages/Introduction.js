@@ -1,5 +1,6 @@
 import React from "react";
 import titleImg from "../../images/mountain.jpeg";
+import './styles.css';
 
 export default function Introduction() {
   return (

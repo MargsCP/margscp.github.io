@@ -1,168 +1,167 @@
-
 #title-img {
   height: 730px;
   filter: brightness(70%);
   position: relative;
-  
-#services{
-    color: #623E29;
+}
+
+  #services {
+    color: #623e29;
     font-family: "Abhaya Libre";
     font-size: 45px;
-}
+  }
 
-#about-me-img {
+  #about-me-img {
     border-radius: 5px;
-    margin: auto;    
+    margin: auto;
     display: block;
-}
+  }
 
-.wrapper {
-  background-color: rgb(234, 234, 238);
-}
+  .wrapper {
+    background-color: rgb(234, 234, 238);
+  }
 
-.header {
-  color: rgb(77, 125, 77);
+  .header {
+    color: rgb(77, 125, 77);
+  }
 
-}
-
-.title {
-  color: white;
-  position: absolute;
-  font-size: 150px;
-  width: 97%;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Abhaya-Libre';
-  background-color: rgba(204, 204, 204, 0.5);
-  display: inline-block;
-  padding: 0.2em 0.2em 0.2em 0.2em;
-  line-height: 120px;
-}
-
-.subtitle-holder {
-  color: white;
-  font-family: 'Abhaya-Libre';
-  font-size: 60px;
-  position: absolute;
-  top: 85%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.book-btn-holder {
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.book-btn {
-  border-radius: 0%;
-  border-color: transparent;
-  width: 250px;
-  font-size: 20px;
-}
-
-@media only screen and (max-width: 767px) {
-  .title {
+  .title-holder {
     color: white;
-    font-size: 40px;
+    position: absolute;
+    font-size: 150px;
     width: 97%;
-    top: 500px;
-    font-family: "Times New Roman", Times, serif;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Abhaya-Libre";
     background-color: rgba(204, 204, 204, 0.5);
     display: inline-block;
     padding: 0.2em 0.2em 0.2em 0.2em;
-    line-height: 50px;
+    line-height: 120px;
   }
 
   .subtitle-holder {
     color: white;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 30px;
-    width: 300px;
-    margin-left: 25px;
-    top: 600px;
+    font-family: "Abhaya-Libre";
+    font-size: 60px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .book-btn-holder {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .book-btn {
     border-radius: 0%;
     border-color: transparent;
+    width: 250px;
+    font-size: 20px;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .title {
+      color: white;
+      font-size: 40px;
+      width: 97%;
+      top: 500px;
+      font-family: "Times New Roman", Times, serif;
+      background-color: rgba(204, 204, 204, 0.5);
+      display: inline-block;
+      padding: 0.2em 0.2em 0.2em 0.2em;
+      line-height: 50px;
+    }
+
+    .subtitle-holder {
+      color: white;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 30px;
+      width: 300px;
+      margin-left: 25px;
+      top: 600px;
+    }
+
+    .book-btn {
+      border-radius: 0%;
+      border-color: transparent;
+      width: 200px;
+      font-size: 18px;
+    }
+
+    .book-btn-holder {
+      position: absolute;
+      top: 700px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1000px) {
+    .title {
+      color: white;
+      font-size: 90px;
+      width: 97%;
+      top: 400px;
+      font-family: "Times New Roman", Times, serif;
+      background-color: rgba(204, 204, 204, 0.5);
+      display: inline-block;
+      padding: 0.2em 0.2em 0.2em 0.2em;
+      line-height: 50px;
+    }
+
+    .subtitle-holder {
+      color: white;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 30px;
+      width: 300px;
+      margin-left: 25px;
+      top: 500px;
+    }
+
+    .aboutSpace-bg {
+      background-color: rgb(238, 235, 229);
+    }
+
+    .services-bg {
+      background-color: rgb(144, 146, 140);
+    }
+
+    .services2-bg {
+      background-color: rgb(238, 235, 229);
+    }
+
+    .footer-bg {
+      background-color: rgb(167, 154, 139);
+    }
+
+    .book-btn {
+      border-radius: 0%;
+      border-color: transparent;
+      width: 200px;
+      font-size: 18px;
+    }
+
+    .book-btn-holder {
+      position: absolute;
+      top: 600px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .horizontal-line {
+    color: rgb(117, 154, 117);
     width: 200px;
-    font-size: 18px;
+    border: 3px solid;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .book-btn-holder {
-    position: absolute;
-    top: 700px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1000px) {
-  .title {
-    color: white;
-    font-size: 90px;
-    width: 97%;
-    top: 400px;
-    font-family: "Times New Roman", Times, serif;
-    background-color: rgba(204, 204, 204, 0.5);
-    display: inline-block;
-    padding: 0.2em 0.2em 0.2em 0.2em;
-    line-height: 50px;
+  .primary-row {
+    background-color: rgb(37, 46, 37);
   }
 
-  .subtitle-holder {
-    color: white;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 30px;
-    width: 300px;
-    margin-left: 25px;
-    top: 500px;
-  }
-
-.aboutSpace-bg {
-    background-color: rgb(238, 235, 229);
-}
-
-.services-bg {
-    background-color: rgb(144, 146, 140);
-}
-
-.services2-bg {
-    background-color: rgb(238, 235, 229);
-}
-
-.footer-bg {
-    background-color: rgb(167, 154, 139);
-}
-
-
-  .book-btn {
-    border-radius: 0%;
-    border-color: transparent;
-    width: 200px;
-    font-size: 18px;
-  }
-
-  .book-btn-holder {
-    position: absolute;
-    top: 600px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-}
-
-.horizontal-line {
-  color: rgb(117, 154, 117);
-  width: 200px;
-  border: 3px solid;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.primary-row {
-  background-color: rgb(37, 46, 37);
-}
