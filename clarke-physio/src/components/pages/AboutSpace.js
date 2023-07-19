@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import aboutMeImage from "../../images/stock-office.png";
+import aboutSpaceImage from "../../images/stock-office.png";
 
 import wallImg from "../../images/wall.jpeg";
 import treatmentRoomImg from "../../images/space-1.jpeg";

@@ -1,0 +1,90 @@
+#about-me-img {
+  border-radius: 0px;
+  margin: auto;
+  display: block;
+}
+
+.about-me-row {
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: rgb(241, 239, 235);
+}
+
+.about-me-paragraph {
+  margin-top: 150px;
+}
+
+.greeting {
+  font-family: 'Abhaya-Libre';
+}
+
+.green-text {
+  color: rgb(148, 188, 148);
+}
+
+.learn-more-btn {
+  width: 250px;
+  height: 40px;
+  margin-left: 200px;
+  border-radius: 0%;
+  border-color: transparent;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .learn-more-btn {
+    margin-left: 30px;
+  }
+
+  .about-me-paragraph {
+    margin-top: 80px;
+  }
+
+  #about-me-img {
+    width: 300px!important;
+    height: 350px!important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+    .learn-more-btn {
+      margin-left: 210px;
+    }
+  
+    .about-me-paragraph {
+      margin-top: 80px;
+    }
+  }
+
+.learn-more-btn:hover {
+  background-color: lightgray;
+  border: transparent;
+  transition: 0.3s;
+}
+
+.about-me-col {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.text-wrap {
+  margin-top: 100px;
+}
+
+.read-more-btn {
+  border-radius: 0%;
+  background-color: rgb(190, 189, 189);
+  border-color: transparent;
+}
+
+.horizontal-line {
+  color: rgb(117, 154, 117);
+  width: 200px;
+  border: 3px solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.primary-row {
+  background-color: rgb(37, 46, 37);
+}
