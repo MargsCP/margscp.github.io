@@ -24,7 +24,6 @@
 
 .learn-more-btn {
   width: 250px;
-  height: 40px;
   margin-left: 200px;
   border-radius: 0%;
   border-color: transparent;
@@ -56,11 +55,7 @@
     }
   }
 
-.learn-more-btn:hover {
-  background-color: lightgray;
-  border: transparent;
-  transition: 0.3s;
-}
+
 
 .about-me-col {
   margin-top: auto;

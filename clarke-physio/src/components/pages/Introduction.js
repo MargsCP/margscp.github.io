@@ -1,6 +1,6 @@
 import React from "react";
 import titleImg from "../../images/mountain.jpeg";
-import './styles.css';
+import "./styles.css";
 
 export default function Introduction() {
   return (
@@ -11,7 +11,11 @@ export default function Introduction() {
       </div>
       <div className="subtitle-holder row">Sea Point, Cape Town</div>
       <div className="book-btn-holder">
-        <button className="btn btn-light book-btn fw-medium">BOOK APPOINTMENT</button>
+        <a href="#booking">
+          <button className="btn btn-light book-btn fw-medium">
+            BOOK APPOINTMENT
+          </button>
+        </a>
       </div>
     </div>
   );
