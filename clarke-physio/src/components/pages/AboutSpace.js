@@ -4,7 +4,7 @@ import aboutSpaceImage from "../../images/stock-office.png";
 
 // import wallImg from "../../images/wall.jpeg";
 import treatmentRoomImg from "../../images/space-2.jpeg";
-import gymImg from "../../images/gym.jpeg";
+import gymImg from "../../images/gym-1.jpeg";
 import blankImg from "../../images/blank.jpeg";
 
 

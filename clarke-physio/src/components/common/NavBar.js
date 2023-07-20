@@ -50,7 +50,7 @@ export default function NavBar() {
           <ul className="navbar-nav ms-auto">
     
             <li className="nav-item active me-auto">
-              <a href="https://api.whatsapp.com/send/?phone=17173710984" target="_blank">
+              <a href="https://api.whatsapp.com/send/?phone=27687881888" target="_blank">
                 <i className="bi bi-whatsapp fa-2x mx-2" style={{fontSize: "1em", color: "white"}}>
                 </i>
               </a>

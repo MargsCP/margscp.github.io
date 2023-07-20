@@ -1,6 +1,6 @@
 import React from "react";
 
-import gymImg from "../../images/gym-2.jpeg"
+import gymImg from "../../images/gym.jpeg"
 import armImg from "../../images/arm-1.jpeg"
 
 export default function PhotoSectionAlt() {

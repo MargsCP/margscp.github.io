@@ -28,8 +28,8 @@ export default function Booking() {
               Find us at Station House, 19 Kloof Road, Sea Point<br/>
               Cape Town, 8005<br/><br/>
               Or contact us online:<br/>
-              Email: <a href = "mailto: margie@clarkephysio.co.za" className="email-color">margie@clarkephysio.co.za</a><br/>
-              Whatsapp: <a href="https://api.whatsapp.com/send/?phone=17173710984" className="email-color" target="_blank">Whatsapp (text only)</a>
+              Email: <a href = "mailto: margie@clarkephysiotherapy.co.za" className="email-color">margie@clarkephysiotherapy.co.za</a><br/>
+              Whatsapp (text only): <a href="https://api.whatsapp.com/send/?phone=27687881888" className="email-color" target="_blank"> +27 687881888</a>
             </div>
           </div>
         </div>

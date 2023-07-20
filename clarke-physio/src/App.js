@@ -20,7 +20,7 @@ function App() {
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </BrowserRouter>
   );
 }
