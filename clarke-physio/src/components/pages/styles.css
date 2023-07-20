@@ -1,5 +1,7 @@
 #title-img {
-  height: 730px;
+  width: 100%;
+  object-fit: cover;
+  height: 700px;
   filter: brightness(70%);
   position: relative;
 }
@@ -285,8 +287,9 @@
   width: 70px;
   height: 70px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .testimonial-rating {
-  color: rgb(218, 218, 77);
+  color: rgb(252, 191, 2) ;
 }
