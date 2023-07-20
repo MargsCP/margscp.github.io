@@ -15,7 +15,7 @@
 }
 
 .greeting {
-  font-family: 'Abhaya-Libre';
+  font-family: "Abhaya-Libre";
 }
 
 .green-text {
@@ -27,8 +27,15 @@
   margin-left: 200px;
   border-radius: 0%;
   border-color: transparent;
+  border: transparent;
 }
 
+.learn-more-btn:hover {
+  background-color: rgb(235, 234, 234);
+  border-color: transparent;
+  border: transparent;
+  transition: 0.3s;
+}
 
 @media only screen and (max-width: 767px) {
   .learn-more-btn {
@@ -40,22 +47,20 @@
   }
 
   #about-me-img {
-    width: 300px!important;
-    height: 350px!important;
+    width: 300px !important;
+    height: 350px !important;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1000px) {
-    .learn-more-btn {
-      margin-left: 210px;
-    }
-  
-    .about-me-paragraph {
-      margin-top: 80px;
-    }
+  .learn-more-btn {
+    margin-left: 210px;
   }
 
-
+  .about-me-paragraph {
+    margin-top: 80px;
+  }
+}
 
 .about-me-col {
   margin-top: auto;
