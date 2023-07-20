@@ -7,24 +7,31 @@ export default function Booking() {
     <div className="container-fluid booking-bg" id="booking">
       <h1 className="pt-5 text-center header">Contact Us</h1>
       <hr className="horizontal-line text-center mb-10"></hr>
-      <div className="row pb-4">
+      <div className="row pb-4 px-3">
         <div className="col-lg-6 mt-2 pt-3 text-center">
-          <h2>Place a Booking</h2>
+          <h2>Book an Appointment</h2>
           <InlineWidget url="https://calendly.com/clarkephysiotherapy/60min"></InlineWidget>
         </div>
 
         <div className="col-lg-6 mt-2 pt-3 text-center">
           <h2>Find Us on 19 Kloof Road, Sea Point</h2>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.853810016068!2d18.3871124!3d-33.9191619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc67223a3a0967%3A0xb0e5e905989aa540!2s19%20Kloof%20Rd!5e0!3m2!1sen!2sza!4v1689165708794!5m2!1sen!2sza"
-            style={{ border: 0 }}
-            height="500px"
-            min-width="320px"
-            width="90%"
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
+          <div className="border border-white p-4 text-start">
+            <h3 className="pb-3">Office Hours</h3>
+            <div>
+              Monday to Friday <br></br>
+              9:00 am to 6:00 pm<br></br>
+              <br></br>
+              Saturday<br></br>
+              9:00 am to 12:00 noon<br></br>
+              <br></br>
+              Home visits available upon request (area dependent)<br/><br/>
+              Find us at Station House, 19 Kloof Road, Sea Point<br/>
+              Cape Town, 8005<br/><br/>
+              Or contact us online:<br/>
+              Email: <a href = "mailto: margie@clarkephysio.co.za" className="email-color">margie@clarkephysio.co.za</a><br/>
+              Whatsapp: <a href="https://api.whatsapp.com/send/?phone=17173710984" className="email-color" target="_blank">Whatsapp (text only)</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
