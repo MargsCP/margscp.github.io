@@ -75,7 +75,7 @@ export default function AboutSpace() {
               Clarke Physiotherapy is located in the heart of Sea Point, Cape
               Town, within the contemporary setting of the new Station House.{" "}
               <br></br>
-              <br></br>19 Kloof Rd, Sea Point<br></br>Cape Town, 8005
+              <br></br><b>19 Kloof Rd, Sea Point<br></br>Cape Town, 8005</b>
             </div>
           </div>
         </div>
