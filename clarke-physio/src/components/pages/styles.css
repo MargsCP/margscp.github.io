@@ -1,3 +1,8 @@
+html * {
+  font-family: "Abhaya Libre";
+}
+
+
 #title-img {
   width: 100%;
   object-fit: cover;
@@ -50,18 +55,6 @@
   font-size: 155px;
 }
 
-.aboutMe-bg {
-  background-color: rgb(241, 239, 235);
-}
-
-.aboutSpace-bg {
-  background-color: rgb(214, 212, 206);
-  min-height: 700px;
-}
-.aboutSpace-oldbg {
-  background-color: rgb(238, 235, 229);
-  min-height: 700px;
-}
 
 .subtitle-holder {
   color: white;
@@ -75,7 +68,7 @@
 
 .book-btn-holder {
   position: absolute;
-  top: 100%;
+  top: 92%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -87,24 +80,38 @@
   font-size: 20px;
 }
 
+.aboutMe-bg {
+  background-color: rgb(241, 239, 235);
+}
+
+.aboutSpace-bg {
+  background-color: rgb(214, 212, 206);
+  min-height: 700px;
+}
+
+.aboutSpace-oldbg {
+  background-color: rgb(238, 235, 229);
+  min-height: 700px;
+}
+
 .booking-bg {
   background-color: rgb(167, 154, 139);
 }
 
-.aboutSpace-bg {
-  background-color: rgb(238, 235, 229);
-}
-
 .services-bg {
-  background-color: rgb(144, 146, 140);
+  background-color: rgb(214, 212, 206);
 }
 
-.services2-bg {
-  background-color: rgb(238, 235, 229);
+.photo-bg {
+  background-color: rgb(144, 146, 140);
 }
 
 .footer-bg {
   background-color: rgb(167, 154, 139);
+}
+
+.email-color {
+  color: rgb(81, 73, 64);
 }
 
 @media only screen and (max-width: 767px) {
@@ -237,6 +244,7 @@
   background-color: rgb(37, 46, 37);
 }
 
+/*About Space card styling*/
 @media screen and (max-width: 768px) {
   .infoBox {
     height: 150px;
@@ -252,9 +260,13 @@
     height: 150px;
   }
 }
+
+
 .primary-row {
   background-color: rgb(37, 46, 37);
 }
+
+
 
 /* Testimonial and Carousel Styling */
 .carousel-holder {
@@ -287,9 +299,14 @@
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  object-fit: cover;
 }
 
 .testimonial-rating {
-  color: rgb(252, 191, 2) ;
+  color: rgb(218, 218, 77);
+}
+
+.psImg {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
 }

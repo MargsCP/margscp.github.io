@@ -8,6 +8,8 @@ import Footer from "./Footer";
 import AboutSpace from "./AboutSpace";
 import ServicesPage from "./OfferedServices/ServicesPage";
 import Testimonials from "./Testimonials";
+import PhotoSectionAlt from "./PhotoSectionAlt";
+import PhotoSection from "./PhotoSection";
 
 export default function HomePage() {
   return (
@@ -16,6 +18,7 @@ export default function HomePage() {
         <Introduction></Introduction>
         <AboutMe></AboutMe>
         <AboutSpace></AboutSpace>
+        <PhotoSectionAlt></PhotoSectionAlt>
         <ServicesPage></ServicesPage>
         <Booking></Booking>
         <Testimonials></Testimonials>

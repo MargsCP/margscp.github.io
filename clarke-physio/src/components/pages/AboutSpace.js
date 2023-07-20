@@ -2,8 +2,8 @@ import React from "react";
 import "./styles.css";
 import aboutSpaceImage from "../../images/stock-office.png";
 
-import wallImg from "../../images/wall.jpeg";
-import treatmentRoomImg from "../../images/space-1.jpeg";
+// import wallImg from "../../images/wall.jpeg";
+import treatmentRoomImg from "../../images/space-2.jpeg";
 import gymImg from "../../images/gym.jpeg";
 import blankImg from "../../images/blank.jpeg";
 
@@ -11,13 +11,13 @@ import blankImg from "../../images/blank.jpeg";
 export default function AboutSpace() {
   return (
     <div className="container-fluid aboutSpace-bg">
-      <h1 className="pt-5 text-center header">About the Space</h1>
+      <h1 className="pt-5 text-center header">The Space</h1>
       <hr className="horizontal-line text-center"></hr>
       <div className="row mt-5 px-3 d-flex flex-row">
         <div className="col-lg-4 mb-5">
           <img
             className="border border-black"
-            src={wallImg}
+            src={treatmentRoomImg}
             alt="Treatment Room"
             width="100%"
           ></img>
