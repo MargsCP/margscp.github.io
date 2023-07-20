@@ -1,5 +1,4 @@
 import React from "react";
-import aboutMePageImage from "../../images/about-me-image-2.jpeg";
 import testimonialEx1 from "../../images/testimonial-profiles/testimonial-ex-1.jpg";
 import testimonialEx2 from "../../images/testimonial-profiles/testimonial-ex-2.jpg";
 import testimonialEx3 from "../../images/testimonial-profiles/testimonial-ex-3.jpg";
@@ -53,7 +52,7 @@ export default function Testimonials() {
             </div>
             <div className="mt-3">
               {" "}
-              <img src={testimonialEx1} className="testimonial-profile"></img>
+              <img src={testimonialEx1} alt="review" className="testimonial-profile"></img>
             </div>
             <div className="fs-4 mt-3">Cristiano Ronaldo</div>
             <div className="fs-3 testimonial-rating">
@@ -76,7 +75,7 @@ export default function Testimonials() {
             </div>
             <div className="mt-3">
               {" "}
-              <img src={testimonialEx2} className="testimonial-profile"></img>
+              <img src={testimonialEx2} alt="review" className="testimonial-profile"></img>
             </div>
             <div className="fs-4 mt-3">Michael Jordan</div>
             <div className="fs-3 testimonial-rating">
@@ -99,7 +98,7 @@ export default function Testimonials() {
               wants to reach their limitless potential.
             </div>
             <div className="mt-3">
-              <img src={testimonialEx3} className="testimonial-profile"></img>
+              <img src={testimonialEx3} alt="review" className="testimonial-profile"></img>
             </div>
             <div className="fs-4 mt-3">Lionel Messi</div>
             <div className="fs-3 testimonial-rating">
