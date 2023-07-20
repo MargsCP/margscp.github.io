@@ -1,9 +1,13 @@
 import dryNeedlingImage from "../images/serviceImages/Images/DryNeedling.jpeg"
 import massageImage from "../images/serviceImages/Images/newMassages.jpeg"
 import rehabImage from "../images/serviceImages/Images/MovementAssessment.jpeg"
-import assessmentImage from "../images/serviceImages/Images/ManualTherapy.jpeg"
+import therapyImage from "../images/serviceImages/Images/ManualTherapy.jpeg"
 import strappingImage from "../images/serviceImages/Images/Strapping.jpeg"
 import newTherapyImage from "../images/serviceImages/Images/newTherapy.jpeg" 
+import newRehabImage from "../images/balance-2.jpeg"
+import assessmentImage from "../images/arm-2.jpeg"
+
+
 class Service{
     constructor(name, description, image){
         this.name = name;
@@ -36,9 +40,9 @@ const assessments = new Service(
     "A comprehensive evaluation of your body's movement patterns, assessing flexibility, strength, and posture. This assessment helps us identify areas of dysfunction or imbalance and tailor treatment plans accordingly.",
     `${assessmentImage}`)
 const rehab = new Service(
-    "Rehabilitation", 
+    "Rehab", 
     "Tailored rehabilitation programs focus on restoring function, strength, and mobility. Focused specific exercise plan with an injury or before or after surgery. ",
-    `${rehabImage}`)
+    `${newRehabImage}`)
 // const advice = new Service(
 //     "Education and Advice", 
 //     "Each patient should be empowered with knowledge and guidance. In addition to treatment, I provide valuable education on self-care strategies, injury prevention techniques and exercises to optimise your physical well-being.",
@@ -47,7 +51,7 @@ const rehab = new Service(
 const manualTherapy= new Service(
     "Manual Therapy", 
     "Hands-on techniques such as joint mobilizations, soft tissue manipulation, and stretching to alleviate pain, improve joint mobility, and promote tissue healing. Manual therapy can effectively address musculoskeletal conditions and enhance overall movement",
-    `${newTherapyImage}`)
+    `${therapyImage}`)
 
 const strapping= new Service(
     "Strapping", 
@@ -59,10 +63,10 @@ const strapping= new Service(
 
 servicesArray.push(dryNeedling)
 servicesArray.push(massages)
+servicesArray.push(manualTherapy)
+servicesArray.push(strapping)
 servicesArray.push(assessments)
 servicesArray.push(rehab)
 //servicesArray.push(advice)
-servicesArray.push(manualTherapy)
-servicesArray.push(strapping)
 
 export {servicesArray}

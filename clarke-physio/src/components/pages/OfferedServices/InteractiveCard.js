@@ -18,10 +18,9 @@ export default function InteractiveCard (props){
       <div  className="theFront" style={{ postion: "absolute", color: "black"}}>
       <img src= {props.service.image}
     width= "100%"
-    height= "100%"
     alt= "dryNeedling"
     position= "absolute"
-    style={{opacity: .65, objectFit: "cover", background: "white"}}/>
+    style={{opacity: .65, objectFit: "cover", background: "white", height: "100%"}}/>
             <h3 style={{position: "absolute",top: 0, textAlign: "center", fontFamily: 'Abhaya Libre', marginTop: "17%", color: "white ", fontSize: 45, opacity: 1, width: "100%", alignItems: "center"}}>{props.service.name}</h3>
           
         
