@@ -12,6 +12,11 @@
 
 .about-me-paragraph {
   margin-top: 150px;
+  font-family: "Questrial" !important;
+}
+
+.about-me-summary{
+  font-family: "Questrial" !important;
 }
 
 .greeting {
@@ -28,6 +33,7 @@
   border-radius: 0%;
   border-color: transparent;
   border: transparent;
+  font-family: "Questrial";
 }
 
 .learn-more-btn:hover {

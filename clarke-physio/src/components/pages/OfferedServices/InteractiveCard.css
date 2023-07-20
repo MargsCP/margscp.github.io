@@ -63,3 +63,12 @@ transform: rotateY(180deg)
 
 
 }
+
+.body-text{
+    /* font-family: 'Mulish', sans-serif; */
+    /* font-family: 'Outfit', sans-serif; */
+    font-family: 'Questrial', sans-serif;
+    /* font-family: 'Quicksand', sans-serif; */
+
+    font-weight: bold;
+}

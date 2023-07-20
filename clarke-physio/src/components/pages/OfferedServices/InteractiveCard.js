@@ -28,7 +28,9 @@ export default function InteractiveCard (props){
       <div className="theBack" style={{objectFit: "cover"}} > 
         <div style={{padding: 8, width: "100%"}}>
           <h4 style={{textAlign: "center", fontFamily: "Abhaya Libre"}}> {props.service.name}</h4>
-          <p style={{textAlign: "center", fontFamily: 'Kanit', }}> {props.service.description}</p>
+          {/* <p className= "body-text"style={{textAlign: "center", fontFamily: 'Kanit', }}> {props.service.description}</p> */}
+          <p className= "body-text"style={{textAlign: "center"}}> {props.service.description}</p>
+
         </div>
       </div>
     </div>

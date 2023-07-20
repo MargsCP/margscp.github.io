@@ -32,8 +32,15 @@ html * {
 }
 
 .header {
-  color: black;
-  font-family: "YAEZxhW1Plk 0";
+  color: #5D402D;
+  /* font-family: "YAEZxhW1Plk 0"; */
+  /* font-family: 'Fahkwang', sans-serif; */
+  /* font-family: 'Noto Serif SC'; */
+  /* font-family: 'Prompt'; */
+  font-family: 'Tenor Sans';
+  font-size: 45px;
+  /* font-weight: bold; */
+
 }
 
 .title-holder {
@@ -78,6 +85,7 @@ html * {
   border-color: transparent;
   width: 250px;
   font-size: 20px;
+  font-family: "Questrial";
 }
 
 .aboutMe-bg {
@@ -284,6 +292,7 @@ html * {
 
 .carousel-text {
   width: 90%;
+  font-family: "Questrial";
 }
 
 .testimonial-carousel {

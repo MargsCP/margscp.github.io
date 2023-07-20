@@ -7,7 +7,7 @@ export default function ServicesPage() {
   return (
     <div className="py-5 services-bg" id="services">
       <h1 className="text-center header">
-        Our Services
+        Services Offered
       </h1>
       <hr className="horizontal-line text-center mb-5"></hr>
       <div
@@ -25,6 +25,6 @@ export default function ServicesPage() {
         })}
       </div>
     
-        // </div>
+       </div>
   );
 }
