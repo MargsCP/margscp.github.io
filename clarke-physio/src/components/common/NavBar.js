@@ -37,12 +37,12 @@ export default function NavBar() {
               </Link>
             </li>
             <li className=" nav-item active ">
-              <a className="nav-link text-light" href="#services">
+              <a className="nav-link text-light" href="/#services">
                 Services
               </a>
             </li>
             <li className=" nav-item active ">
-              <a className="nav-link text-light" href="#booking">
+              <a className="nav-link text-light" href="/#booking">
                 Contact Us
               </a>
             </li>

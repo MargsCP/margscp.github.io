@@ -33,6 +33,7 @@ html * {
 
 .header {
   color: black;
+  font-family: "YAEZxhW1Plk 0";
 }
 
 .title-holder {
@@ -228,6 +229,7 @@ html * {
 .posRelative {
   position: relative;
   overflow: hidden;
+  min-height: 200px;
 }
 
 .posAbsolute {
