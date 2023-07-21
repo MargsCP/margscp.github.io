@@ -15,13 +15,13 @@ export default function HomePage() {
   return (
     <>
       <div className="wrapper">
-        <Introduction></Introduction>
-        <AboutMe></AboutMe>
-        <AboutSpace></AboutSpace>
-        <PhotoSectionAlt></PhotoSectionAlt>
-        <ServicesPage></ServicesPage>
-        <Booking></Booking>
-        <Testimonials></Testimonials>
+        <Introduction/>
+        <AboutMe/>
+        <AboutSpace/>
+        <PhotoSection/>
+        <ServicesPage/>
+        <Booking/>
+        <Testimonials/>
       </div>
     </>
   );
