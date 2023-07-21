@@ -176,7 +176,7 @@ html * {
 
 
 /*Tablet screen breakpoint for title*/
-@media only screen and (min-width: 768px) and (max-width: 1290px) {
+@media only screen and (min-width: 768px) and (max-width: 1500px) {
   .title-holder {
     color: white;
     font-size: 90px;
