@@ -1,7 +1,5 @@
 import React from "react";
 
-import "./AboutMe.css";
-
 import aboutMeImage from "../../images/about-me-image.jpeg";
 
 import { Link } from "react-router-dom";
@@ -9,6 +7,8 @@ import { Link } from "react-router-dom";
 export default function AboutMe() {
   return (
     <div className="row about-me-row">
+
+      {/* About Me Section Text */}
       <div className="col-lg-6 col-12">
         <div className="about-me-paragraph ms-5">
           {" "}
@@ -32,6 +32,8 @@ export default function AboutMe() {
           </Link>
         </div>
       </div>
+
+      {/* About Me Section Image */}
       <div className="col-lg-6 col-12 my-5">
         <img
           id="about-me-img"

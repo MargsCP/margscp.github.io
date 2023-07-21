@@ -4,6 +4,7 @@ import "./styles.css";
 
 export default function Introduction() {
   return (
+    // Code for Header Image of Page
     <div className="title-container">
       <img id="title-img" src={titleImg} alt="Margie Clarke" width="100%"></img>
       <div className="title-holder row">
@@ -19,6 +20,7 @@ export default function Introduction() {
           </button>
         </a>
       </div>
+
     </div>
   );
 }

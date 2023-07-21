@@ -1,12 +1,13 @@
 import React from "react";
 import aboutMePageImage from "../../images/about-me-image-2.jpeg";
-import "./AboutPage.css";
 import outdoorImage from "../../images/outdoor-img.jpg";
 
 export default function AboutPage() {
   return (
     <div className="wrapper">
       <div className="row pt-4 px-3">
+
+        {/* About Me Page Upper Image */}
         <div className="col-lg-6 mb-5 mt-5">
           <img
             id="about-me-img"
@@ -15,9 +16,11 @@ export default function AboutPage() {
             height="450"
             width="100%"
             className="mx-auto"
-            style={{objectFit: "cover"}}
+            style={{ objectFit: "cover" }}
           ></img>
         </div>
+
+        {/* About Me Page Upper Text */}
         <div className="col-lg-6 about-me-col">
           <div className="about-me-bio">
             <h2 className="mb-3 text-secondary">Margie Clarke</h2>
@@ -58,35 +61,41 @@ export default function AboutPage() {
 
       <div className="row">
 
-          <div className="col-lg-5 about-me-2-col">
-            <div className="fs-6 fw-medium">
-              At Clarke Physiotherapy, expect exceptional care, customized
-              treatment plans, and a welcoming environment. Together, we'll
-              embark on a healing journey that combines clinical expertise with
-              your overall well-being. Collaboration and communication are
-              important in my management. I work closely with patients and other
-              practitioners to ensure a comprehensive and integrated approach to
-              treatment.
-              <br></br>
-              <br></br>
-              Some of my special interests include, but are not limited to:
-              <br></br>
-              <ul>
-                <li>Pre and post-operative rehabilitation</li>
-                <li>
-                  Orthopedic and Musculoskeletal conditions or injuries,
-                  specifically foot, ankle or knees
-                </li>
-                <li>Lower back pain</li>
-                <li>Injury prevention</li>
-              </ul>
-            </div>
+        {/* About Me Page Lower Text */}
+        <div className="col-lg-5 about-me-2-col">
+          <div className="fs-6 fw-medium">
+            At Clarke Physiotherapy, expect exceptional care, customized
+            treatment plans, and a welcoming environment. Together, we'll embark
+            on a healing journey that combines clinical expertise with your
+            overall well-being. Collaboration and communication are important in
+            my management. I work closely with patients and other practitioners
+            to ensure a comprehensive and integrated approach to treatment.
+            <br></br>
+            <br></br>
+            Some of my special interests include, but are not limited to:
+            <br></br>
+            <ul>
+              <li>Pre and post-operative rehabilitation</li>
+              <li>
+                Orthopedic and Musculoskeletal conditions or injuries,
+                specifically foot, ankle or knees
+              </li>
+              <li>Lower back pain</li>
+              <li>Injury prevention</li>
+            </ul>
           </div>
+        </div>
 
-          <div className="col-lg-5 col-img">
-            <img src={outdoorImage} alt="#" height="450" width="100%" className="outdoorImg mb-3"></img>
-          </div>
-
+        {/* About Me Page Lower Image */}
+        <div className="col-lg-5 col-img">
+          <img
+            src={outdoorImage}
+            alt="#"
+            height="450"
+            width="100%"
+            className="outdoorImg mb-3"
+          ></img>
+        </div>
       </div>
     </div>
   );
