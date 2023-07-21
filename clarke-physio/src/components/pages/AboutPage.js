@@ -5,16 +5,17 @@ import outdoorImage from "../../images/outdoor-img.jpg";
 
 export default function AboutPage() {
   return (
-    <div>
-      <div className="row mt-4">
+    <div className="wrapper">
+      <div className="row pt-4 px-3">
         <div className="col-lg-6 mb-5 mt-5">
           <img
             id="about-me-img"
             src={aboutMePageImage}
             alt="Margie Clarke"
             height="450"
-            width="600"
+            width="100%"
             className="mx-auto"
+            style={{objectFit: "cover"}}
           ></img>
         </div>
         <div className="col-lg-6 about-me-col">
@@ -83,7 +84,7 @@ export default function AboutPage() {
           </div>
 
           <div className="col-lg-5 col-img">
-            <img src={outdoorImage} alt="#" height="450" width="600" className="outdoorImg mb-3"></img>
+            <img src={outdoorImage} alt="#" height="450" width="100%" className="outdoorImg mb-3"></img>
           </div>
 
       </div>

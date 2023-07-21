@@ -19,4 +19,5 @@ margin-left: 70px;
 
 .outdoorImg {
     border-radius: 5px;
+    object-fit: cover;
 }

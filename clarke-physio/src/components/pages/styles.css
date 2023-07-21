@@ -21,15 +21,10 @@ html * {
   display: block;
 }
 
-#about-me-img {
-  border-radius: 5px;
-  margin: auto;
-  display: block;
-}
-
 .wrapper {
   background-color: rgb(234, 234, 238);
 }
+
 
 .header {
   color: #5D402D;
@@ -40,7 +35,6 @@ html * {
   font-family: 'Tenor Sans';
   font-size: 45px;
   /* font-weight: bold; */
-
 }
 
 .title-holder {
