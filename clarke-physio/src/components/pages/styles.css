@@ -103,6 +103,12 @@ html * {
 
 .photo-bg {
   background-color: rgb(144, 146, 140);
+  max-height: 750px;
+}
+
+.photo {
+  max-height: 650px;
+  object-fit: cover;
 }
 
 .footer-bg {
