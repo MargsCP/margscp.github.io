@@ -2,15 +2,6 @@ html * {
   font-family: "YAFdJqkJIt4 0";
 }
 
-
-#title-img {
-  width: 100%;
-  object-fit: cover;
-  height: 700px;
-  filter: brightness(70%);
-  position: relative;
-}
-
 #services {
   color: #623e29;
 }
@@ -36,6 +27,16 @@ html * {
   font-size: 45px;
   /* font-weight: bold; */
 }
+
+/* Introduction component at top of page */
+#title-img {
+  width: 100%;
+  object-fit: cover;
+  height: 700px;
+  filter: brightness(70%);
+  position: relative;
+}
+
 
 .title-holder {
   position: absolute;
@@ -221,7 +222,105 @@ html * {
 }
 
 
+/* About Me Component */
+#about-me-img {
+  border-radius: 0px;
+  margin: auto;
+  display: block;
+}
 
+.about-me-row {
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: rgb(241, 239, 235);
+}
+
+.about-me-paragraph {
+  margin-top: 150px;
+  font-family: "Questrial" !important;
+}
+
+.about-me-summary{
+  font-family: "Questrial" !important;
+}
+
+.greeting {
+  font-family: "Abhaya-Libre";
+}
+
+.green-text {
+  color: rgb(148, 188, 148);
+}
+
+.learn-more-btn {
+  width: 250px;
+  margin-left: 200px;
+  border-radius: 0%;
+  border-color: transparent;
+  border: transparent;
+  font-family: "Questrial";
+}
+
+.learn-more-btn:hover {
+  background-color: rgb(235, 234, 234);
+  border-color: transparent;
+  border: transparent;
+  transition: 0.3s;
+}
+
+/* Breakpoint for smaller-sized screen */
+@media only screen and (max-width: 767px) {
+  .learn-more-btn {
+    margin-left: 30px;
+  }
+
+  .about-me-paragraph {
+    margin-top: 80px;
+  }
+
+  #about-me-img {
+    width: 300px !important;
+    height: 350px !important;
+  }
+}
+
+/* Break point for regular-sized screen*/
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .learn-more-btn {
+    margin-left: 210px;
+  }
+
+  .about-me-paragraph {
+    margin-top: 80px;
+  }
+}
+
+.about-me-col {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.text-wrap {
+  margin-top: 100px;
+}
+
+.read-more-btn {
+  border-radius: 0%;
+  background-color: rgb(190, 189, 189);
+  border-color: transparent;
+}
+
+.horizontal-line {
+  color: rgb(117, 154, 117);
+  width: 200px;
+  border: 3px solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.primary-row {
+  background-color: rgb(37, 46, 37);
+}
 
 
 /*About space map sizing to match images*/
@@ -272,7 +371,32 @@ html * {
   background-color: rgb(37, 46, 37);
 }
 
+/* Aboout Page component */
 
+.about-me-2-col {
+  margin-left: 70px;
+  }
+  
+  .col-img {
+    margin-left: 105px;
+  }
+  
+  .outdoorImg {
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+/* Breakpoint for smaller-sized screens */
+@media only screen and (max-width: 600px) {
+  #about-me-img {
+      width: 320px;
+      height: 240px;
+  }
+
+  .about-me-bio {
+      margin-left: 10px;
+  }
+}
 
 /* Testimonial and Carousel Styling */
 .carousel-holder {
