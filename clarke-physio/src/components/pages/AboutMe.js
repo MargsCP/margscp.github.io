@@ -14,7 +14,7 @@ export default function AboutMe() {
           {" "}
           <h1 className="text-black-50 greeting fst-italic">Hi, I'm Margie</h1>
           <div className="mt-5 about-me-summary fs-5 fw-medium">
-            <em>
+            <p>
               I am the proud owner of Clarke Physiotherapy, with over a decade
               of experience and a passion for holistic healing.
               <br></br>
@@ -23,7 +23,7 @@ export default function AboutMe() {
               and a welcoming environment. Together, we'll embark on a healing
               journey that combines clinical expertise with your overall
               well-being.
-            </em>
+            </p>
           </div>
           <Link to="/about">
             <div className="btn btn-light learn-more-btn fw-bold mt-5">
