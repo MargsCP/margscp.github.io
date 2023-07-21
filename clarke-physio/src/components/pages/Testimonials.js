@@ -14,6 +14,7 @@ export default function Testimonials() {
       <div
         id="carouselExampleIndicators"
         className="carousel slide carousel-dark testimonial-carousel mt-5"
+        data-bs-ride="carousel"
       >
         <div className="carousel-indicators mb-4">
 
@@ -43,7 +44,7 @@ export default function Testimonials() {
         </div>
 
         <div className="carousel-inner text-center">
-          <div className="carousel-item active">
+          <div className="carousel-item active" data-bs-interval="10000">
             <div className="carousel-text text-center mx-auto fs-4 fw-medium text-black-50">
             <i className="bi bi-quote me-1 fs-2"></i>Such an amazing 6 weeks, highly recommend the program to anyone
               interested in traveling abroad while also developing multiple hard
@@ -64,7 +65,7 @@ export default function Testimonials() {
             </div>
           </div>
 
-          <div className="carousel-item">
+          <div className="carousel-item" data-bs-interval="10000">
             <div className="carousel-text text-center mx-auto fs-4 fw-medium text-black-50">
             <i className="bi bi-quote me-1 fs-2"></i>iXperience was the best summer I've had. Not only was it
               tremendous being taught a management consulting course by industry
@@ -87,7 +88,7 @@ export default function Testimonials() {
             </div>
           </div>
 
-          <div className="carousel-item">
+          <div className="carousel-item" data-bs-interval="10000">
             <div className="carousel-text text-center mx-auto fs-4 fw-medium text-black-50">
             <i className="bi bi-quote me-1 fs-2"></i>From genuinely loving and enthusiastic instructors to incredibly
               supportive teaching assistants and staff, my experience with
