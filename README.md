@@ -32,4 +32,4 @@ From what I've gathered, I believe these are the steps required for hosting the 
 - Check github and godaddy to see if it's deployed
 
 The above is just a general summary of what I gathered from the above links, please make sure to follow any directions in those links as well (i.e. creating a CNAME file, editing package.json, etc) <br>
-Hopefully these were helpful, if not then feel free to reach out directly and we can try to help
+Hopefully these were helpful, but please feel free to reach out directly and we'll do anything we can to help
