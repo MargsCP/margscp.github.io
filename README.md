@@ -13,9 +13,12 @@ To build the production version, run
 npm run build
 ```
 
+Here are some websites to look at before hosting:
+
 For help with github hosting, please refer to this [blog about deployment](https://blog.logrocket.com/deploying-react-apps-github-pages/)
 and this website about linking it to your [GoDaddy domain](https://jinnabalu.medium.com/godaddy-domain-with-github-pages-62aed906d4ef)
 It might also be helpful to look at this website for general info about how to use [Github Pages](https://pages.github.com/)
+This one is also helpful [Github Pages Documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site)
 
 Note: it looks like to host on Github Pages requires either a premium account or that the repo be made public in settings.
 Hosting directly on GoDaddy would also be an option if you want the repository to remain private.
