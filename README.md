@@ -1,6 +1,6 @@
 # Clarke-Physiotherapy
 
-Most documentation is in each individual file <br>
+Most documentation is in each individual file, this page covers the steps for deploying the site live (please delete this file if successful and if the repository is made public) <br>
 
 To test out the website, clone it into a local repository, navigate to the clarke-physio folder, and run 
 ```
