@@ -24,7 +24,7 @@ From what I've gathered, I believe these are the steps required for hosting the 
 - Transfer ownership of repository
 - (Possibly not needed since this is a React Application): create new repo called (username).github.io
 - (If above step is needed): copy everything from this repo to the one just created
-- run "npm install" from the terminal in the clarke-physio folder
+- run "npm install" from the terminal in the clarke-physio folder (or the corresponding folder in the other repository if you make a new one)
 - run "npm run build" from the terminal in the clarke-physio folder
 - check if it deployed to github pages
 - make the CNAME file to link the domain you purchased
