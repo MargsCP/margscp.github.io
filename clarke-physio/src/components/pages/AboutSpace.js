@@ -23,7 +23,6 @@ export default function AboutSpace() {
   // This section is organized as a row with three columns, where each column has an image stacked on top of a card w/ text
   // To change images, please use above import statements
   // The Google Maps embed should not cause any issues so long as the "map", "posRelative", and "posAbsolute" classes in styles.css are not altered
- 
 
   return (
     <div className="container-fluid aboutSpace-bg">
@@ -32,7 +31,7 @@ export default function AboutSpace() {
 
       {/* Below section is the row of the three images */}
       <div className="row mt-5 px-3 d-flex flex-row">
-        {/* First column */}
+        {/* First Column */}
         <div className="col-lg-4 mb-5">
           <img
             className="border border-black"

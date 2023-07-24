@@ -15,6 +15,11 @@ import AboutPage from "./components/pages/AboutPage";
  * To add any images, we recommend uploading them to the images folder (please feel free to delete or restructure this folder if you like,
  * but this may require looking at every fold with image imports to ensure these aren't messed up.)
  * 
+ * To alter the services offered, navigate to the services file in the models folder and make any changes to images, text, etc
+ * To change the order they're diplayed on the page, change the order in which they are "pushed" to the array
+ * 
+ * To add any other pages (for instance, a page about staff for when a second physio is brought in), said component will need to be added here
+ *  as a route and to the NavBar as a Link, like the AboutPage is
  * 
  * 
  * 
@@ -28,7 +33,6 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage/>} />
       </Routes>
-      {/* <Footer></Footer> */}
     </BrowserRouter>
   );
 }

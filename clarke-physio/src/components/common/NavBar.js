@@ -3,12 +3,22 @@ import { Link } from "react-router-dom";
 
 import "./NavBar.css";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.css";
-import { SocialIcon } from "react-social-icons";
 
 export default function NavBar() {
+
+  /* 
+   Currently the Navbar is lacking the logo and instagram links
+   The logo would most likely be added as an image in place of the current text
+   The instagram link is currently commented out, once account is created add the URL link in place of the Google.com URL
+   You may also want to change the LinkedIn URL to be the business accound instead of personal account once that is up and running
+  */
+
+
+
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark px-3 position-sticky fixed-top">
       <div className="container-fluid">
+        {/* Logo would be inserted below */}
         <a className="navbar-brand text-light ms-auto" href="/#">
           Clarke Physiotherapy
         </a>
@@ -48,16 +58,17 @@ export default function NavBar() {
             </li>
           </ul>
           <ul className="navbar-nav ms-auto">
-    
+
+            {/* Contact info icons; instagram is commented out, could also add a link to Google Reviews here */}
             <li className="nav-item active me-auto">
               <a href="https://api.whatsapp.com/send/?phone=27687881888" target="_blank">
                 <i className="bi bi-whatsapp fa-2x mx-2" style={{fontSize: "1em", color: "white"}}>
                 </i>
               </a>
-              <a href="https://google.com" target="_blank">
+              {/* <a href="https://google.com" target="_blank">
                 <i className="bi bi-instagram fa-2x mx-2" style={{fontSize: "1em", color: "white"}}>
                 </i>
-              </a>
+              </a> */}
               <a href="https://www.linkedin.com/in/margie-witz-clarke-507b7084/" target="_blank">
                 <i className="bi bi-linkedin fa-2x mx-2 p-0 m-0" style={{fontSize: "1em", color: "white"}}>
                 </i>

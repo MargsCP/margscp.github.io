@@ -3,6 +3,16 @@ import { InlineWidget } from "react-calendly";
 import "./styles.css";
 
 export default function Booking() {
+
+  /*
+  This is the booking and contact info section that includes a Calendly widget and basic contact info
+  The Calendly widget requires minimal styling, only parameter is the URL which could be changed if you wish to offer other bookings
+  Same goes for email and whatsapp, should they change for any reason it should be updated
+  Whatsapp should also be updated in the NavBar
+
+  */
+
+
   return (
     <div className="container-fluid booking-bg" id="booking">
       <h1 className="pt-5 text-center header">Contact Us</h1>
