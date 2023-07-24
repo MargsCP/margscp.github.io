@@ -1,6 +1,8 @@
 # Clarke-Physiotherapy
 
 Most documentation is in each individual file, this page covers the steps for deploying the site live (please delete this file if successful and if the repository is made public) <br>
+I would recommend looking through the documentation for the NavBar, HomePage, App.js, and each of the individual pages/folds before trying to host as the website still needs proper links to instagram, linkedin business profile. The Clarke Logo will also need added to the NavBar.js file <br>
+As is, the website could be hosted now without those features, so it might be better from a competitive standpoint to get it hosted sooner rather than later, in which case please read the items below: <br>
 
 To test out the website, clone it into a local repository, navigate to the clarke-physio folder, and run 
 ```
