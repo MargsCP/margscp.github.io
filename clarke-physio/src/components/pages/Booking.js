@@ -39,7 +39,7 @@ export default function Booking() {
               Cape Town, 8005<br/><br/>
               Or contact us online:<br/>
               Email: <a href = "mailto: margie@clarkephysiotherapy.co.za" className="email-color">margie@clarkephysiotherapy.co.za</a><br/>
-              Whatsapp (text only): <a href="https://api.whatsapp.com/send/?phone=27687881888" className="email-color" target="_blank"> +27 687881888</a>
+              Whatsapp (text only): <a href="https://api.whatsapp.com/send/?phone=27687881888" className="email-color" target="_blank" rel="noreferrer"> +27 687881888</a>
             </div>
           </div>
         </div>

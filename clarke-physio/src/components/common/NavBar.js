@@ -61,7 +61,7 @@ export default function NavBar() {
 
             {/* Contact info icons; instagram is commented out, could also add a link to Google Reviews here */}
             <li className="nav-item active me-auto">
-              <a href="https://api.whatsapp.com/send/?phone=27687881888" target="_blank">
+              <a href="https://api.whatsapp.com/send/?phone=27687881888" target="_blank" rel="noreferrer">
                 <i className="bi bi-whatsapp fa-2x mx-2" style={{fontSize: "1em", color: "white"}}>
                 </i>
               </a>
@@ -69,7 +69,7 @@ export default function NavBar() {
                 <i className="bi bi-instagram fa-2x mx-2" style={{fontSize: "1em", color: "white"}}>
                 </i>
               </a> */}
-              <a href="https://www.linkedin.com/in/margie-witz-clarke-507b7084/" target="_blank">
+              <a href="https://www.linkedin.com/in/margie-witz-clarke-507b7084/" target="_blank" rel="noreferrer">
                 <i className="bi bi-linkedin fa-2x mx-2 p-0 m-0" style={{fontSize: "1em", color: "white"}}>
                 </i>
               </a>
