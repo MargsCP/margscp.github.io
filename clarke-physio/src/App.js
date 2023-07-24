@@ -8,6 +8,18 @@ import HomePage from "./components/pages/HomePage";
 import Footer from "./components/pages/Footer";
 import AboutPage from "./components/pages/AboutPage";
 
+/***
+ * Even though this is more or less a single page application, each fold is sectioned off as its own page, 
+ * and this is all organized from the "HomePage" component. 
+ * 
+ * To add any images, we recommend uploading them to the images folder (please feel free to delete or restructure this folder if you like,
+ * but this may require looking at every fold with image imports to ensure these aren't messed up.)
+ * 
+ * 
+ * 
+ * 
+ */
+
 function App() {
   return (
     <BrowserRouter>

@@ -2,6 +2,16 @@ import React from "react";
 import "./styles.css";
 import aboutSpaceImage from "../../images/stock-office.png";
 
+
+
+/*
+Imports for images used in this fold 
+
+NOTE: the "blank" image is there for the purpose of fitting the Google Maps embed, if the other images are replaced
+and any new images of different dimensions are used, please change blank.jpeg to reflect the new aspect ratio.
+*/
+
+
 // import wallImg from "../../images/wall.jpeg";
 import treatmentRoomImg from "../../images/space-2.jpeg";
 import gymImg from "../../images/gym-3.jpeg";
@@ -9,11 +19,20 @@ import blankImg from "../../images/blank.jpeg";
 
 
 export default function AboutSpace() {
+
+  // This section is organized as a row with three columns, where each column has an image stacked on top of a card w/ text
+  // To change images, please use above import statements
+  // The Google Maps embed should not cause any issues so long as the "map", "posRelative", and "posAbsolute" classes in styles.css are not altered
+ 
+
   return (
     <div className="container-fluid aboutSpace-bg">
       <h1 className="pt-5 text-center header">The Space</h1>
       <hr className="horizontal-line text-center"></hr>
+
+      {/* Below section is the row of the three images */}
       <div className="row mt-5 px-3 d-flex flex-row">
+        {/* First column */}
         <div className="col-lg-4 mb-5">
           <img
             className="border border-black"
@@ -32,6 +51,7 @@ export default function AboutSpace() {
             </div>
           </div>
         </div>
+        {/* Second Column */}
         <div className="col-lg-4 mb-5">
           <img
             className="border border-black"
@@ -52,6 +72,7 @@ export default function AboutSpace() {
             </div>
           </div>
         </div>
+        {/* Third Column */}
         <div className="col-lg-4 mb-5">
           <div className="posRelative">
             <img
