@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e617abbe.css",
+    "main.js": "/static/js/main.95039c2a.js",
+    "static/js/787.25a83a22.chunk.js": "/static/js/787.25a83a22.chunk.js",
+    "static/media/gym.jpeg": "/static/media/gym.6d7de43907c0abf0a1ea.jpeg",
+    "static/media/MovementAssessment.jpeg": "/static/media/MovementAssessment.0c2f5d06012032301af3.jpeg",
+    "static/media/arm-2.jpeg": "/static/media/arm-2.0c2f5d06012032301af3.jpeg",
+    "static/media/gym-3.jpeg": "/static/media/gym-3.966fc26ce5fb1ee924cb.jpeg",
+    "static/media/space-2.jpeg": "/static/media/space-2.e25968a9a994844917d3.jpeg",
+    "static/media/DryNeedling.jpeg": "/static/media/DryNeedling.2fb33b1402bec54e5b65.jpeg",
+    "static/media/about-me-image-2.jpeg": "/static/media/about-me-image-2.ba962af6cdbf998fb472.jpeg",
+    "static/media/ManualTherapy.jpeg": "/static/media/ManualTherapy.0c01f46a458498076edf.jpeg",
+    "static/media/about-me-image.jpeg": "/static/media/about-me-image.9d046ee37b5c2fa107de.jpeg",
+    "static/media/wall.jpeg": "/static/media/wall.62235c34ebee1db64215.jpeg",
+    "static/media/newMassages.jpeg": "/static/media/newMassages.ef7b1e6405755694d413.jpeg",
+    "static/media/Strapping.jpeg": "/static/media/Strapping.4da325f39d9a70de9387.jpeg",
+    "static/media/outdoor-img.jpg": "/static/media/outdoor-img.fee36449a2db98b07831.jpg",
+    "static/media/balance-2.jpeg": "/static/media/balance-2.877d8cb78c0c353c32d9.jpeg",
+    "static/media/mountain.jpeg": "/static/media/mountain.d07e0b374424f874ac36.jpeg",
+    "static/media/stock-office.png": "/static/media/stock-office.4e6416a3ef91703fb09e.png",
+    "static/media/newTherapy.jpeg": "/static/media/newTherapy.b20ac00ec493690e607a.jpeg",
+    "static/media/blank.jpeg": "/static/media/blank.dcbd3002b57736e21cea.jpeg",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "index.html": "/index.html",
+    "main.e617abbe.css.map": "/static/css/main.e617abbe.css.map",
+    "main.95039c2a.js.map": "/static/js/main.95039c2a.js.map",
+    "787.25a83a22.chunk.js.map": "/static/js/787.25a83a22.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e617abbe.css",
+    "static/js/main.95039c2a.js"
+  ]
+}
