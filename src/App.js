@@ -20,9 +20,6 @@ import AboutPage from "./components/pages/AboutPage";
  * 
  * To add any other pages (for instance, a page about staff for when a second physio is brought in), said component will need to be added here
  *  as a route and to the NavBar as a Link, like the AboutPage is
- * 
- * 
- * 
  */
 
 function App() {

@@ -28,7 +28,7 @@ function addService(name, description, image){
 
 const dryNeedling = new Service(
     "Dry Needling", 
-    "Through the precise insertion of fine needles into trigger points or tight muscles, dry needling stimulates the release of tension and promotes pain relief. This technique can help manage muscle pain, reduce spasms, and improve range of motion.",
+    "Through the precise insertion of fine needles into trigger points or tight muscles, dry needling stimulates the release of tension and promotes pain relief. This technique can help manage muscle pain, reduce spasms and improve range of motion.",
     `${dryNeedlingImage}`)
 
 const massages = new Service(
