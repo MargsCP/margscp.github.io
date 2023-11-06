@@ -61,7 +61,7 @@ export default function NavBar() {
 
             {/* Contact info icons; instagram is commented out, could also add a link to Google Reviews here */}
             <li className="nav-item active me-auto">
-              <a href="https://api.whatsapp.com/send/?phone=27687881888" target="_blank" rel="noreferrer">
+              <a href="https://api.whatsapp.com/send/?phone=27724880406" target="_blank" rel="noreferrer">
                 <i className="bi bi-whatsapp fa-2x mx-2" style={{fontSize: "1em", color: "white"}}>
                 </i>
               </a>
