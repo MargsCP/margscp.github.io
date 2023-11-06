@@ -40,7 +40,6 @@ export default function AboutMe() {
           src={aboutMeImage}
           alt="Margie Clarke"
           height="600"
-          width="450"
           className="mx-auto"
         ></img>
       </div>
