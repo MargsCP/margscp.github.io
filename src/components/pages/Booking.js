@@ -29,17 +29,17 @@ export default function Booking() {
             <h3 className="pb-3">Office Hours</h3>
             <div>
               Monday to Friday <br></br>
-              9:00 am to 6:00 pm<br></br>
+              9:00 am to 5:00 pm<br></br>
               <br></br>
               Saturday<br></br>
-              9:00 am to 12:00 noon<br></br>
+              Contact me for bookings<br></br>
               <br></br>
               Home visits available upon request (area dependent)<br/><br/>
               Find us at Station House, 19 Kloof Road, Sea Point<br/>
               Cape Town, 8005<br/><br/>
               Or contact us online:<br/>
-              Email: <a href = "mailto: margie@clarkephysiotherapy.co.za" className="email-color">margie@clarkephysiotherapy.co.za</a><br/>
-              Whatsapp (text only): <a href="https://api.whatsapp.com/send/?phone=27687881888" className="email-color" target="_blank" rel="noreferrer"> +27 687881888</a>
+              Email: <a href = "mailto:margie@clarkephysiotherapy.co.za" className="email-color">margie@clarkephysiotherapy.co.za</a><br/>
+              Whatsapp (text only): <a href="https://api.whatsapp.com/send/?phone=27724880406" className="email-color" target="_blank" rel="noreferrer">+27 72 488 0406</a>
             </div>
           </div>
         </div>
