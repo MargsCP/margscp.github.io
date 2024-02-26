@@ -18,12 +18,7 @@ export default function Booking() {
       <h1 className="pt-5 text-center header">Contact Us</h1>
       <hr className="horizontal-line text-center mb-10"></hr>
       <div className="row pb-4 px-3">
-        <div className="col-lg-6 mt-2 pt-3 text-center">
-          <h2>Book an Appointment</h2>
-          <InlineWidget url="https://calendly.com/clarkephysiotherapy/60min"></InlineWidget>
-        </div>
-
-        <div className="col-lg-6 mt-2 pt-3 text-center">
+        <div className="col-lg-12 mt-2 pt-3 text-center">
           <h2>Find Us on 19 Kloof Road, Sea Point</h2>
           <div className="border border-white p-4 text-start">
             <h3 className="pb-3">Office Hours</h3>
